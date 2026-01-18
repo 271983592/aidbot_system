@@ -1,0 +1,15 @@
+#!/bin/bash
+source /home/songxm/anaconda3/bin/activate py39
+cd asr_python_deploy
+nohup python server.py --model_config conf/decode_engine_V3.yaml --host 0.0.0.0 --port 9876 --vad_aggressiveness 3 2>&1 > /tmp/log.asr_python_deploy &
+cd ..
+cd listener
+nohup python manage.py runserver 0.0.0.0:5678 2>&1 > /tmp/log.listener &
+cd ..
+
+##声纹识别
+#cd ../sv/sv_service
+#nohup python3 manage.py runserver 0.0.0.0:12345 2>&1 > log.sv_service &
+
+source /home/songxm/anaconda3/bin/deactivate
+#curl localhost:5678/asr/start

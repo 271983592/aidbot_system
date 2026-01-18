@@ -1,0 +1,6 @@
+[INFO][2026-01-07 22:23:06,626][asr_client.py][rec][128] > raw message: 来来来
+[INFO][2026-01-07 22:23:06,629][asr_client.py][rec][137] > filted message: 来来来
+[INFO][2026-01-07 22:23:07,440][asr_client.py][rec][128] > raw message: 唉呀
+[INFO][2026-01-07 22:23:07,441][asr_client.py][rec][137] > filted message: 唉呀
+[INFO][2026-01-07 22:25:13,927][asr_client.py][rec][128] > raw message: 爸爸
+[INFO][2026-01-07 22:25:13,927][asr_client.py][rec][137] > filted message: 爸爸

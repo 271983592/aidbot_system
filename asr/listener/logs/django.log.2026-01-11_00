@@ -1,0 +1,14 @@
+[INFO][2026-01-10 23:24:41,418][asr_client.py][rec][128] > raw message: 谢谢谢
+[INFO][2026-01-10 23:24:41,419][asr_client.py][rec][137] > filted message: 谢谢谢
+[INFO][2026-01-10 23:48:30,281][asr_client.py][rec][128] > raw message: 北京今天的天气
+[INFO][2026-01-10 23:48:30,281][asr_client.py][rec][137] > filted message: 北京今天的天气
+[INFO][2026-01-10 23:49:30,177][asr_client.py][rec][128] > raw message: 为什么中国人都恨日本人
+[INFO][2026-01-10 23:49:30,178][asr_client.py][rec][137] > filted message: 为什么中国人都恨日本人
+[INFO][2026-01-10 23:50:37,293][asr_client.py][rec][128] > raw message: 请帮我打一辆去公司的车
+[INFO][2026-01-10 23:50:37,294][asr_client.py][rec][137] > filted message: 请帮我打一辆去公司的车
+[INFO][2026-01-10 23:52:06,721][asr_client.py][rec][128] > raw message: 清除对话内容
+[INFO][2026-01-10 23:52:06,721][asr_client.py][rec][137] > filted message: 清除对话内容
+[INFO][2026-01-10 23:52:29,387][asr_client.py][rec][128] > raw message: 我刚刚提问了几个问题
+[INFO][2026-01-10 23:52:29,387][asr_client.py][rec][137] > filted message: 我刚刚提问了几个问题
+[INFO][2026-01-11 00:01:19,426][asr_client.py][rec][128] > raw message: 哈哈
+[INFO][2026-01-11 00:01:19,427][asr_client.py][rec][137] > filted message: 哈哈

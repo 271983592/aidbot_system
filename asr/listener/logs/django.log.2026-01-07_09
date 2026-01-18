@@ -1,0 +1,4 @@
+[INFO][2026-01-07 09:17:55,142][asr_client.py][rec][128] > raw message: 行了
+[INFO][2026-01-07 09:17:55,145][asr_client.py][rec][137] > filted message: 行了
+[INFO][2026-01-07 09:21:32,407][asr_client.py][rec][128] > raw message: 干什么
+[INFO][2026-01-07 09:21:32,407][asr_client.py][rec][137] > filted message: 干什么

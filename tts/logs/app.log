@@ -1,0 +1,1176 @@
+2026-01-08 06:29:16,643 [INFO] tts_app: Received TTS request: 我理解了你说的是：北京今天有什么新闻。这是一个很好的话题，我可以为你提供更多相关信息。
+2026-01-08 06:29:16,643 [INFO] tts_app: Received TTS request: 我理解了你说的是：北京今天有什么新闻。这是一个很好的话题，我可以为你提供更多相关信息。
+2026-01-08 06:29:16,645 [INFO] tts_app: Start TTS synthesize: 我理解了你说的是：北京今天有什么新闻。这是一个很好的话题，我可以为你提供更多相关信息。
+2026-01-08 06:29:16,645 [INFO] tts_app: Start TTS synthesize: 我理解了你说的是：北京今天有什么新闻。这是一个很好的话题，我可以为你提供更多相关信息。
+2026-01-08 06:29:29,881 [INFO] tts_app: Playback finished: 我理解了你说的是：北京今天有什么新闻。这是一个很好的话题，我可以为你提供更多相关信息。
+2026-01-08 06:29:29,881 [INFO] tts_app: Playback finished: 我理解了你说的是：北京今天有什么新闻。这是一个很好的话题，我可以为你提供更多相关信息。
+2026-01-08 06:30:43,895 [INFO] tts_app: Received TTS request: 我理解了你说的是：山东今天有什么新闻？。这是一个很好的话题，我可以为你提供更多相关信息。
+2026-01-08 06:30:43,895 [INFO] tts_app: Received TTS request: 我理解了你说的是：山东今天有什么新闻？。这是一个很好的话题，我可以为你提供更多相关信息。
+2026-01-08 06:30:43,897 [INFO] tts_app: Start TTS synthesize: 我理解了你说的是：山东今天有什么新闻？。这是一个很好的话题，我可以为你提供更多相关信息。
+2026-01-08 06:30:43,897 [INFO] tts_app: Start TTS synthesize: 我理解了你说的是：山东今天有什么新闻？。这是一个很好的话题，我可以为你提供更多相关信息。
+2026-01-08 06:30:57,068 [INFO] tts_app: Playback finished: 我理解了你说的是：山东今天有什么新闻？。这是一个很好的话题，我可以为你提供更多相关信息。
+2026-01-08 06:30:57,068 [INFO] tts_app: Playback finished: 我理解了你说的是：山东今天有什么新闻？。这是一个很好的话题，我可以为你提供更多相关信息。
+2026-01-08 06:31:13,920 [INFO] tts_app: Received TTS request: 我理解了你说的是：中国今天有什么新闻？。这是一个很好的话题，我可以为你提供更多相关信息。
+2026-01-08 06:31:13,920 [INFO] tts_app: Received TTS request: 我理解了你说的是：中国今天有什么新闻？。这是一个很好的话题，我可以为你提供更多相关信息。
+2026-01-08 06:31:13,921 [INFO] tts_app: Start TTS synthesize: 我理解了你说的是：中国今天有什么新闻？。这是一个很好的话题，我可以为你提供更多相关信息。
+2026-01-08 06:31:13,921 [INFO] tts_app: Start TTS synthesize: 我理解了你说的是：中国今天有什么新闻？。这是一个很好的话题，我可以为你提供更多相关信息。
+2026-01-08 06:31:27,648 [INFO] tts_app: Playback finished: 我理解了你说的是：中国今天有什么新闻？。这是一个很好的话题，我可以为你提供更多相关信息。
+2026-01-08 06:31:27,648 [INFO] tts_app: Playback finished: 我理解了你说的是：中国今天有什么新闻？。这是一个很好的话题，我可以为你提供更多相关信息。
+2026-01-09 07:05:37,037 [INFO] tts_app: Received TTS request: 请求失败，请检查服务是否正常运行。
+2026-01-09 07:05:37,037 [INFO] tts_app: Received TTS request: 请求失败，请检查服务是否正常运行。
+2026-01-09 07:05:37,038 [INFO] tts_app: Start TTS synthesize: 请求失败，请检查服务是否正常运行。
+2026-01-09 07:05:37,038 [INFO] tts_app: Start TTS synthesize: 请求失败，请检查服务是否正常运行。
+2026-01-09 07:05:43,703 [INFO] tts_app: Playback finished: 请求失败，请检查服务是否正常运行。
+2026-01-09 07:05:43,703 [INFO] tts_app: Playback finished: 请求失败，请检查服务是否正常运行。
+2026-01-09 07:06:44,289 [INFO] tts_app: Received TTS request: 
+
+北京今天天气可能比较热，具体温度和天气状况需要查看天气预报。
+2026-01-09 07:06:44,289 [INFO] tts_app: Received TTS request: 
+
+北京今天天气可能比较热，具体温度和天气状况需要查看天气预报。
+2026-01-09 07:06:44,290 [INFO] tts_app: Start TTS synthesize: 
+
+北京今天天气可能比较热，具体温度和天气状况需要查看天气预报。
+2026-01-09 07:06:44,290 [INFO] tts_app: Start TTS synthesize: 
+
+北京今天天气可能比较热，具体温度和天气状况需要查看天气预报。
+2026-01-09 07:06:53,573 [INFO] tts_app: Playback finished: 
+
+北京今天天气可能比较热，具体温度和天气状况需要查看天气预报。
+2026-01-09 07:06:53,573 [INFO] tts_app: Playback finished: 
+
+北京今天天气可能比较热，具体温度和天气状况需要查看天气预报。
+2026-01-09 07:07:11,565 [INFO] tts_app: Received TTS request: 
+
+最近，北京的经济数据发布、国际新闻和社会活动备受关注，涵盖经济、国际合作和社会动态。
+2026-01-09 07:07:11,565 [INFO] tts_app: Received TTS request: 
+
+最近，北京的经济数据发布、国际新闻和社会活动备受关注，涵盖经济、国际合作和社会动态。
+2026-01-09 07:07:11,565 [INFO] tts_app: Start TTS synthesize: 
+
+最近，北京的经济数据发布、国际新闻和社会活动备受关注，涵盖经济、国际合作和社会动态。
+2026-01-09 07:07:11,565 [INFO] tts_app: Start TTS synthesize: 
+
+最近，北京的经济数据发布、国际新闻和社会活动备受关注，涵盖经济、国际合作和社会动态。
+2026-01-09 07:07:23,651 [INFO] tts_app: Playback finished: 
+
+最近，北京的经济数据发布、国际新闻和社会活动备受关注，涵盖经济、国际合作和社会动态。
+2026-01-09 07:07:23,651 [INFO] tts_app: Playback finished: 
+
+最近，北京的经济数据发布、国际新闻和社会活动备受关注，涵盖经济、国际合作和社会动态。
+2026-01-09 07:13:48,063 [INFO] tts_app: Received TTS request: 
+
+最近北京的经济数据发布，或近期国际活动，或政策调整，这些都可能是最近的新闻。
+2026-01-09 07:13:48,063 [INFO] tts_app: Received TTS request: 
+
+最近北京的经济数据发布，或近期国际活动，或政策调整，这些都可能是最近的新闻。
+2026-01-09 07:13:48,064 [INFO] tts_app: Start TTS synthesize: 
+
+最近北京的经济数据发布，或近期国际活动，或政策调整，这些都可能是最近的新闻。
+2026-01-09 07:13:48,064 [INFO] tts_app: Start TTS synthesize: 
+
+最近北京的经济数据发布，或近期国际活动，或政策调整，这些都可能是最近的新闻。
+2026-01-09 07:13:58,303 [INFO] tts_app: Playback finished: 
+
+最近北京的经济数据发布，或近期国际活动，或政策调整，这些都可能是最近的新闻。
+2026-01-09 07:13:58,303 [INFO] tts_app: Playback finished: 
+
+最近北京的经济数据发布，或近期国际活动，或政策调整，这些都可能是最近的新闻。
+2026-01-09 07:17:56,694 [INFO] tts_app: Received TTS request: 请求失败，请检查服务是否正常运行。
+2026-01-09 07:17:56,694 [INFO] tts_app: Received TTS request: 请求失败，请检查服务是否正常运行。
+2026-01-09 07:17:56,694 [INFO] tts_app: Start TTS synthesize: 请求失败，请检查服务是否正常运行。
+2026-01-09 07:17:56,694 [INFO] tts_app: Start TTS synthesize: 请求失败，请检查服务是否正常运行。
+2026-01-09 07:18:02,981 [INFO] tts_app: Playback finished: 请求失败，请检查服务是否正常运行。
+2026-01-09 07:18:02,981 [INFO] tts_app: Playback finished: 请求失败，请检查服务是否正常运行。
+2026-01-09 07:18:08,099 [INFO] tts_app: Received TTS request: 请求失败，请检查服务是否正常运行。
+2026-01-09 07:18:08,099 [INFO] tts_app: Received TTS request: 请求失败，请检查服务是否正常运行。
+2026-01-09 07:18:08,100 [INFO] tts_app: Start TTS synthesize: 请求失败，请检查服务是否正常运行。
+2026-01-09 07:18:08,100 [INFO] tts_app: Start TTS synthesize: 请求失败，请检查服务是否正常运行。
+2026-01-09 07:18:14,374 [INFO] tts_app: Playback finished: 请求失败，请检查服务是否正常运行。
+2026-01-09 07:18:14,374 [INFO] tts_app: Playback finished: 请求失败，请检查服务是否正常运行。
+2026-01-09 07:18:28,546 [INFO] tts_app: Received TTS request: 
+
+北京今天有多个重要新闻，包括经济数据发布、政策声明、社会事件以及国际新闻。
+2026-01-09 07:18:28,546 [INFO] tts_app: Received TTS request: 
+
+北京今天有多个重要新闻，包括经济数据发布、政策声明、社会事件以及国际新闻。
+2026-01-09 07:18:28,547 [INFO] tts_app: Start TTS synthesize: 
+
+北京今天有多个重要新闻，包括经济数据发布、政策声明、社会事件以及国际新闻。
+2026-01-09 07:18:28,547 [INFO] tts_app: Start TTS synthesize: 
+
+北京今天有多个重要新闻，包括经济数据发布、政策声明、社会事件以及国际新闻。
+2026-01-09 07:18:38,937 [INFO] tts_app: Playback finished: 
+
+北京今天有多个重要新闻，包括经济数据发布、政策声明、社会事件以及国际新闻。
+2026-01-09 07:18:38,937 [INFO] tts_app: Playback finished: 
+
+北京今天有多个重要新闻，包括经济数据发布、政策声明、社会事件以及国际新闻。
+2026-01-10 16:56:50,746 [INFO] tts_app: Received TTS request: 请求失败，请检查服务是否正常运行。
+2026-01-10 16:56:50,746 [INFO] tts_app: Received TTS request: 请求失败，请检查服务是否正常运行。
+2026-01-10 16:56:50,747 [INFO] tts_app: Start TTS synthesize: 请求失败，请检查服务是否正常运行。
+2026-01-10 16:56:50,747 [INFO] tts_app: Start TTS synthesize: 请求失败，请检查服务是否正常运行。
+2026-01-10 16:56:57,724 [INFO] tts_app: Playback finished: 请求失败，请检查服务是否正常运行。
+2026-01-10 16:56:57,724 [INFO] tts_app: Playback finished: 请求失败，请检查服务是否正常运行。
+2026-01-10 16:56:58,328 [INFO] tts_app: Received TTS request: 
+
+谢谢
+2026-01-10 16:56:58,328 [INFO] tts_app: Received TTS request: 
+
+谢谢
+2026-01-10 16:56:58,328 [INFO] tts_app: Start TTS synthesize: 
+
+谢谢
+2026-01-10 16:56:58,328 [INFO] tts_app: Start TTS synthesize: 
+
+谢谢
+2026-01-10 16:57:01,756 [INFO] tts_app: Playback finished: 
+
+谢谢
+2026-01-10 16:57:01,756 [INFO] tts_app: Playback finished: 
+
+谢谢
+2026-01-10 16:57:09,932 [INFO] tts_app: Received TTS request: 
+
+北京今天的天气可能有小雨，温度适中，适合户外活动。
+2026-01-10 16:57:09,932 [INFO] tts_app: Received TTS request: 
+
+北京今天的天气可能有小雨，温度适中，适合户外活动。
+2026-01-10 16:57:09,933 [INFO] tts_app: Start TTS synthesize: 
+
+北京今天的天气可能有小雨，温度适中，适合户外活动。
+2026-01-10 16:57:09,933 [INFO] tts_app: Start TTS synthesize: 
+
+北京今天的天气可能有小雨，温度适中，适合户外活动。
+2026-01-10 16:57:17,542 [INFO] tts_app: Playback finished: 
+
+北京今天的天气可能有小雨，温度适中，适合户外活动。
+2026-01-10 16:57:17,542 [INFO] tts_app: Playback finished: 
+
+北京今天的天气可能有小雨，温度适中，适合户外活动。
+2026-01-10 16:57:24,892 [INFO] tts_app: Received TTS request: 
+
+北京奥运会的盛况即将上演，北京国际会议等重大活动即将举行。
+2026-01-10 16:57:24,892 [INFO] tts_app: Received TTS request: 
+
+北京奥运会的盛况即将上演，北京国际会议等重大活动即将举行。
+2026-01-10 16:57:24,892 [INFO] tts_app: Start TTS synthesize: 
+
+北京奥运会的盛况即将上演，北京国际会议等重大活动即将举行。
+2026-01-10 16:57:24,892 [INFO] tts_app: Start TTS synthesize: 
+
+北京奥运会的盛况即将上演，北京国际会议等重大活动即将举行。
+2026-01-10 16:57:34,121 [INFO] tts_app: Playback finished: 
+
+北京奥运会的盛况即将上演，北京国际会议等重大活动即将举行。
+2026-01-10 16:57:34,121 [INFO] tts_app: Playback finished: 
+
+北京奥运会的盛况即将上演，北京国际会议等重大活动即将举行。
+2026-01-10 16:57:34,123 [INFO] tts_app: Received TTS request: 
+
+得有哪些新闻？得是指某个特定的新闻来源，比如某个机构、网站或平台发布的新闻。以下是一些常见的新闻领域和相关话题：
+
+1. **科技新闻**：涵盖人工智能、量子计算、生物技术、网络安全等领域的最新动态。
+2. **经济新闻**：涉及全球经济趋势、市场分析、政策变化等。
+3. **健康新闻**：关注健康事件、疾病信息、健康趋势等。
+4. **环境新闻**：讨论气候变化、污染、生物多样性保护等。
+5. **体育新闻**：涵盖篮球、足球、羽毛球等运动领域的最新信息。
+6. **教育新闻**：关注教育改革、考试变化、教育资源等。
+7. **娱乐新闻**：涉及影视、音乐、游戏、直播等领域的动态。
+
+这些新闻通常会发布在新闻网站、社交媒体平台或特定新闻机构的平台上。如果你有具体领域或主题，可以告诉我，我可以为你提供更详细的新闻信息！
+2026-01-10 16:57:34,123 [INFO] tts_app: Received TTS request: 
+
+得有哪些新闻？得是指某个特定的新闻来源，比如某个机构、网站或平台发布的新闻。以下是一些常见的新闻领域和相关话题：
+
+1. **科技新闻**：涵盖人工智能、量子计算、生物技术、网络安全等领域的最新动态。
+2. **经济新闻**：涉及全球经济趋势、市场分析、政策变化等。
+3. **健康新闻**：关注健康事件、疾病信息、健康趋势等。
+4. **环境新闻**：讨论气候变化、污染、生物多样性保护等。
+5. **体育新闻**：涵盖篮球、足球、羽毛球等运动领域的最新信息。
+6. **教育新闻**：关注教育改革、考试变化、教育资源等。
+7. **娱乐新闻**：涉及影视、音乐、游戏、直播等领域的动态。
+
+这些新闻通常会发布在新闻网站、社交媒体平台或特定新闻机构的平台上。如果你有具体领域或主题，可以告诉我，我可以为你提供更详细的新闻信息！
+2026-01-10 16:57:34,123 [INFO] tts_app: Start TTS synthesize: 
+
+得有哪些新闻？得是指某个特定的新闻来源，比如某个机构、网站或平台发布的新闻。以下是一些常见的新闻领域和相关话题：
+
+1. **科技新闻**：涵盖人工智能、量子计算、生物技术、网络安全等领域的最新动态。
+2. **经济新闻**：涉及全球经济趋势、市场分析、政策变化等。
+3. **健康新闻**：关注健康事件、疾病信息、健康趋势等。
+4. **环境新闻**：讨论气候变化、污染、生物多样性保护等。
+5. **体育新闻**：涵盖篮球、足球、羽毛球等运动领域的最新信息。
+6. **教育新闻**：关注教育改革、考试变化、教育资源等。
+7. **娱乐新闻**：涉及影视、音乐、游戏、直播等领域的动态。
+
+这些新闻通常会发布在新闻网站、社交媒体平台或特定新闻机构的平台上。如果你有具体领域或主题，可以告诉我，我可以为你提供更详细的新闻信息！
+2026-01-10 16:57:34,123 [INFO] tts_app: Start TTS synthesize: 
+
+得有哪些新闻？得是指某个特定的新闻来源，比如某个机构、网站或平台发布的新闻。以下是一些常见的新闻领域和相关话题：
+
+1. **科技新闻**：涵盖人工智能、量子计算、生物技术、网络安全等领域的最新动态。
+2. **经济新闻**：涉及全球经济趋势、市场分析、政策变化等。
+3. **健康新闻**：关注健康事件、疾病信息、健康趋势等。
+4. **环境新闻**：讨论气候变化、污染、生物多样性保护等。
+5. **体育新闻**：涵盖篮球、足球、羽毛球等运动领域的最新信息。
+6. **教育新闻**：关注教育改革、考试变化、教育资源等。
+7. **娱乐新闻**：涉及影视、音乐、游戏、直播等领域的动态。
+
+这些新闻通常会发布在新闻网站、社交媒体平台或特定新闻机构的平台上。如果你有具体领域或主题，可以告诉我，我可以为你提供更详细的新闻信息！
+2026-01-10 16:59:02,355 [INFO] tts_app: Playback finished: 
+
+得有哪些新闻？得是指某个特定的新闻来源，比如某个机构、网站或平台发布的新闻。以下是一些常见的新闻领域和相关话题：
+
+1. **科技新闻**：涵盖人工智能、量子计算、生物技术、网络安全等领域的最新动态。
+2. **经济新闻**：涉及全球经济趋势、市场分析、政策变化等。
+3. **健康新闻**：关注健康事件、疾病信息、健康趋势等。
+4. **环境新闻**：讨论气候变化、污染、生物多样性保护等。
+5. **体育新闻**：涵盖篮球、足球、羽毛球等运动领域的最新信息。
+6. **教育新闻**：关注教育改革、考试变化、教育资源等。
+7. **娱乐新闻**：涉及影视、音乐、游戏、直播等领域的动态。
+
+这些新闻通常会发布在新闻网站、社交媒体平台或特定新闻机构的平台上。如果你有具体领域或主题，可以告诉我，我可以为你提供更详细的新闻信息！
+2026-01-10 16:59:02,355 [INFO] tts_app: Playback finished: 
+
+得有哪些新闻？得是指某个特定的新闻来源，比如某个机构、网站或平台发布的新闻。以下是一些常见的新闻领域和相关话题：
+
+1. **科技新闻**：涵盖人工智能、量子计算、生物技术、网络安全等领域的最新动态。
+2. **经济新闻**：涉及全球经济趋势、市场分析、政策变化等。
+3. **健康新闻**：关注健康事件、疾病信息、健康趋势等。
+4. **环境新闻**：讨论气候变化、污染、生物多样性保护等。
+5. **体育新闻**：涵盖篮球、足球、羽毛球等运动领域的最新信息。
+6. **教育新闻**：关注教育改革、考试变化、教育资源等。
+7. **娱乐新闻**：涉及影视、音乐、游戏、直播等领域的动态。
+
+这些新闻通常会发布在新闻网站、社交媒体平台或特定新闻机构的平台上。如果你有具体领域或主题，可以告诉我，我可以为你提供更详细的新闻信息！
+2026-01-10 16:59:02,357 [INFO] tts_app: Received TTS request: 
+
+谢谢
+2026-01-10 16:59:02,357 [INFO] tts_app: Received TTS request: 
+
+谢谢
+2026-01-10 16:59:02,357 [INFO] tts_app: Start TTS synthesize: 
+
+谢谢
+2026-01-10 16:59:02,357 [INFO] tts_app: Start TTS synthesize: 
+
+谢谢
+2026-01-10 16:59:02,365 [INFO] tts_app: Received TTS request: 
+
+可能会带来不安全的风险。
+2026-01-10 16:59:02,365 [INFO] tts_app: Received TTS request: 
+
+可能会带来不安全的风险。
+2026-01-10 16:59:02,366 [INFO] tts_app: Start TTS synthesize: 
+
+可能会带来不安全的风险。
+2026-01-10 16:59:02,366 [INFO] tts_app: Start TTS synthesize: 
+
+可能会带来不安全的风险。
+2026-01-10 16:59:02,375 [INFO] tts_app: Received TTS request: 
+
+谢谢
+2026-01-10 16:59:02,375 [INFO] tts_app: Received TTS request: 
+
+谢谢
+2026-01-10 16:59:02,376 [INFO] tts_app: Start TTS synthesize: 
+
+谢谢
+2026-01-10 16:59:02,376 [INFO] tts_app: Start TTS synthesize: 
+
+谢谢
+2026-01-10 16:59:02,386 [INFO] tts_app: Received TTS request: 
+
+我理解你可能对某个事物或问题理解不够，或者你遇到了困难需要帮助。如果你有具体的问题或需要进一步的解释，请告诉我，我会尽力帮助你。
+2026-01-10 16:59:02,386 [INFO] tts_app: Received TTS request: 
+
+我理解你可能对某个事物或问题理解不够，或者你遇到了困难需要帮助。如果你有具体的问题或需要进一步的解释，请告诉我，我会尽力帮助你。
+2026-01-10 16:59:02,386 [INFO] tts_app: Start TTS synthesize: 
+
+我理解你可能对某个事物或问题理解不够，或者你遇到了困难需要帮助。如果你有具体的问题或需要进一步的解释，请告诉我，我会尽力帮助你。
+2026-01-10 16:59:02,386 [INFO] tts_app: Start TTS synthesize: 
+
+我理解你可能对某个事物或问题理解不够，或者你遇到了困难需要帮助。如果你有具体的问题或需要进一步的解释，请告诉我，我会尽力帮助你。
+2026-01-10 16:59:02,409 [INFO] tts_app: Received TTS request: 
+
+他们可能在询问“变化”的含义，或者寻找一个具体的变化例子。例如，智能手机的普及改变了人们的日常生活，改变了人们获取信息和交流的方式。
+2026-01-10 16:59:02,409 [INFO] tts_app: Received TTS request: 
+
+他们可能在询问“变化”的含义，或者寻找一个具体的变化例子。例如，智能手机的普及改变了人们的日常生活，改变了人们获取信息和交流的方式。
+2026-01-10 16:59:02,410 [INFO] tts_app: Start TTS synthesize: 
+
+他们可能在询问“变化”的含义，或者寻找一个具体的变化例子。例如，智能手机的普及改变了人们的日常生活，改变了人们获取信息和交流的方式。
+2026-01-10 16:59:02,410 [INFO] tts_app: Start TTS synthesize: 
+
+他们可能在询问“变化”的含义，或者寻找一个具体的变化例子。例如，智能手机的普及改变了人们的日常生活，改变了人们获取信息和交流的方式。
+2026-01-10 16:59:02,420 [INFO] tts_app: Received TTS request: 
+
+谢谢，谢谢，谢谢！
+2026-01-10 16:59:02,420 [INFO] tts_app: Received TTS request: 
+
+谢谢，谢谢，谢谢！
+2026-01-10 16:59:02,420 [INFO] tts_app: Start TTS synthesize: 
+
+谢谢，谢谢，谢谢！
+2026-01-10 16:59:02,420 [INFO] tts_app: Start TTS synthesize: 
+
+谢谢，谢谢，谢谢！
+2026-01-10 16:59:02,429 [INFO] tts_app: Received TTS request: 
+
+“谈恋爱篮球”可能指的是篮球训练、篮球比赛、篮球文化等，以及恋爱相关的项目如恋爱游戏、恋爱模拟等。希望这些信息能帮助你找到感兴趣的话题或资源！
+2026-01-10 16:59:02,429 [INFO] tts_app: Received TTS request: 
+
+“谈恋爱篮球”可能指的是篮球训练、篮球比赛、篮球文化等，以及恋爱相关的项目如恋爱游戏、恋爱模拟等。希望这些信息能帮助你找到感兴趣的话题或资源！
+2026-01-10 16:59:02,429 [INFO] tts_app: Start TTS synthesize: 
+
+“谈恋爱篮球”可能指的是篮球训练、篮球比赛、篮球文化等，以及恋爱相关的项目如恋爱游戏、恋爱模拟等。希望这些信息能帮助你找到感兴趣的话题或资源！
+2026-01-10 16:59:02,429 [INFO] tts_app: Start TTS synthesize: 
+
+“谈恋爱篮球”可能指的是篮球训练、篮球比赛、篮球文化等，以及恋爱相关的项目如恋爱游戏、恋爱模拟等。希望这些信息能帮助你找到感兴趣的话题或资源！
+2026-01-10 16:59:02,458 [INFO] tts_app: Received TTS request: 
+
+我需要一个一句话的回应。
+2026-01-10 16:59:02,458 [INFO] tts_app: Received TTS request: 
+
+我需要一个一句话的回应。
+2026-01-10 16:59:02,459 [INFO] tts_app: Start TTS synthesize: 
+
+我需要一个一句话的回应。
+2026-01-10 16:59:02,459 [INFO] tts_app: Start TTS synthesize: 
+
+我需要一个一句话的回应。
+2026-01-10 16:59:02,468 [INFO] tts_app: Received TTS request: 
+
+“两位”指的是两个人，也可能是两个数字。例如，两位数指的是一个数，由两个数字组成，如12。此外，两位也可以用来表示两个人一起行动。
+2026-01-10 16:59:02,468 [INFO] tts_app: Received TTS request: 
+
+“两位”指的是两个人，也可能是两个数字。例如，两位数指的是一个数，由两个数字组成，如12。此外，两位也可以用来表示两个人一起行动。
+2026-01-10 16:59:02,469 [INFO] tts_app: Start TTS synthesize: 
+
+“两位”指的是两个人，也可能是两个数字。例如，两位数指的是一个数，由两个数字组成，如12。此外，两位也可以用来表示两个人一起行动。
+2026-01-10 16:59:02,469 [INFO] tts_app: Start TTS synthesize: 
+
+“两位”指的是两个人，也可能是两个数字。例如，两位数指的是一个数，由两个数字组成，如12。此外，两位也可以用来表示两个人一起行动。
+2026-01-10 16:59:02,479 [INFO] tts_app: Received TTS request: 
+
+行行行通常指“行会”，即“行会”。
+2026-01-10 16:59:02,479 [INFO] tts_app: Received TTS request: 
+
+行行行通常指“行会”，即“行会”。
+2026-01-10 16:59:02,479 [INFO] tts_app: Start TTS synthesize: 
+
+行行行通常指“行会”，即“行会”。
+2026-01-10 16:59:02,479 [INFO] tts_app: Start TTS synthesize: 
+
+行行行通常指“行会”，即“行会”。
+2026-01-10 16:59:02,596 [INFO] tts_app: Received TTS request: 
+
+请告诉我您需要什么帮助？
+2026-01-10 16:59:02,596 [INFO] tts_app: Received TTS request: 
+
+请告诉我您需要什么帮助？
+2026-01-10 16:59:02,596 [INFO] tts_app: Start TTS synthesize: 
+
+请告诉我您需要什么帮助？
+2026-01-10 16:59:02,596 [INFO] tts_app: Start TTS synthesize: 
+
+请告诉我您需要什么帮助？
+2026-01-10 16:59:03,832 [INFO] tts_app: Received TTS request: 
+
+“那个”在中文中通常用来指代某人或某物，类似于英语中的“that”。它通常用于询问、描述或指代某人或某物。例如，如果我问：“那个学生”，回答就是“那个学生”。
+2026-01-10 16:59:03,832 [INFO] tts_app: Received TTS request: 
+
+“那个”在中文中通常用来指代某人或某物，类似于英语中的“that”。它通常用于询问、描述或指代某人或某物。例如，如果我问：“那个学生”，回答就是“那个学生”。
+2026-01-10 16:59:03,833 [INFO] tts_app: Start TTS synthesize: 
+
+“那个”在中文中通常用来指代某人或某物，类似于英语中的“that”。它通常用于询问、描述或指代某人或某物。例如，如果我问：“那个学生”，回答就是“那个学生”。
+2026-01-10 16:59:03,833 [INFO] tts_app: Start TTS synthesize: 
+
+“那个”在中文中通常用来指代某人或某物，类似于英语中的“that”。它通常用于询问、描述或指代某人或某物。例如，如果我问：“那个学生”，回答就是“那个学生”。
+2026-01-10 16:59:06,298 [INFO] tts_app: Playback finished: 
+
+谢谢
+2026-01-10 16:59:06,298 [INFO] tts_app: Playback finished: 
+
+谢谢
+2026-01-10 16:59:08,760 [INFO] tts_app: Playback finished: 
+
+谢谢
+2026-01-10 16:59:08,760 [INFO] tts_app: Playback finished: 
+
+谢谢
+2026-01-10 16:59:12,742 [INFO] tts_app: Playback finished: 
+
+可能会带来不安全的风险。
+2026-01-10 16:59:12,742 [INFO] tts_app: Playback finished: 
+
+可能会带来不安全的风险。
+2026-01-10 16:59:26,396 [INFO] tts_app: Playback finished: 
+
+我理解你可能对某个事物或问题理解不够，或者你遇到了困难需要帮助。如果你有具体的问题或需要进一步的解释，请告诉我，我会尽力帮助你。
+2026-01-10 16:59:26,396 [INFO] tts_app: Playback finished: 
+
+我理解你可能对某个事物或问题理解不够，或者你遇到了困难需要帮助。如果你有具体的问题或需要进一步的解释，请告诉我，我会尽力帮助你。
+2026-01-10 16:59:41,457 [INFO] tts_app: Playback finished: 
+
+他们可能在询问“变化”的含义，或者寻找一个具体的变化例子。例如，智能手机的普及改变了人们的日常生活，改变了人们获取信息和交流的方式。
+2026-01-10 16:59:41,457 [INFO] tts_app: Playback finished: 
+
+他们可能在询问“变化”的含义，或者寻找一个具体的变化例子。例如，智能手机的普及改变了人们的日常生活，改变了人们获取信息和交流的方式。
+2026-01-10 16:59:45,806 [INFO] tts_app: Playback finished: 
+
+我需要一个一句话的回应。
+2026-01-10 16:59:45,806 [INFO] tts_app: Playback finished: 
+
+我需要一个一句话的回应。
+2026-01-10 16:59:52,057 [INFO] tts_app: Playback finished: 
+
+行行行通常指“行会”，即“行会”。
+2026-01-10 16:59:52,057 [INFO] tts_app: Playback finished: 
+
+行行行通常指“行会”，即“行会”。
+2026-01-10 16:59:57,168 [INFO] tts_app: Playback finished: 
+
+请告诉我您需要什么帮助？
+2026-01-10 16:59:57,168 [INFO] tts_app: Playback finished: 
+
+请告诉我您需要什么帮助？
+2026-01-10 17:00:03,200 [INFO] tts_app: Playback finished: 
+
+谢谢，谢谢，谢谢！
+2026-01-10 17:00:03,200 [INFO] tts_app: Playback finished: 
+
+谢谢，谢谢，谢谢！
+2026-01-10 17:00:20,818 [INFO] tts_app: Playback finished: 
+
+“两位”指的是两个人，也可能是两个数字。例如，两位数指的是一个数，由两个数字组成，如12。此外，两位也可以用来表示两个人一起行动。
+2026-01-10 17:00:20,818 [INFO] tts_app: Playback finished: 
+
+“两位”指的是两个人，也可能是两个数字。例如，两位数指的是一个数，由两个数字组成，如12。此外，两位也可以用来表示两个人一起行动。
+2026-01-10 17:00:20,818 [ERROR] tts_app: TTS synthesize/play failed: No audio was received. Please verify that your parameters are correct.
+Traceback (most recent call last):
+  File "/home/songxm/devel/songxm/python/tts/server.py", line 56, in synthesize_and_play
+    async for chunk in tts.stream():
+  File "/home/songxm/anaconda3/lib/python3.11/site-packages/edge_tts/communicate.py", line 566, in stream
+    async for message in self.__stream():
+  File "/home/songxm/anaconda3/lib/python3.11/site-packages/edge_tts/communicate.py", line 541, in __stream
+    raise NoAudioReceived(
+edge_tts.exceptions.NoAudioReceived: No audio was received. Please verify that your parameters are correct.
+2026-01-10 17:00:20,818 [ERROR] tts_app: TTS synthesize/play failed: No audio was received. Please verify that your parameters are correct.
+Traceback (most recent call last):
+  File "/home/songxm/devel/songxm/python/tts/server.py", line 56, in synthesize_and_play
+    async for chunk in tts.stream():
+  File "/home/songxm/anaconda3/lib/python3.11/site-packages/edge_tts/communicate.py", line 566, in stream
+    async for message in self.__stream():
+  File "/home/songxm/anaconda3/lib/python3.11/site-packages/edge_tts/communicate.py", line 541, in __stream
+    raise NoAudioReceived(
+edge_tts.exceptions.NoAudioReceived: No audio was received. Please verify that your parameters are correct.
+2026-01-10 17:00:38,547 [INFO] tts_app: Playback finished: 
+
+“谈恋爱篮球”可能指的是篮球训练、篮球比赛、篮球文化等，以及恋爱相关的项目如恋爱游戏、恋爱模拟等。希望这些信息能帮助你找到感兴趣的话题或资源！
+2026-01-10 17:00:38,547 [INFO] tts_app: Playback finished: 
+
+“谈恋爱篮球”可能指的是篮球训练、篮球比赛、篮球文化等，以及恋爱相关的项目如恋爱游戏、恋爱模拟等。希望这些信息能帮助你找到感兴趣的话题或资源！
+2026-01-10 17:00:38,548 [INFO] tts_app: Received TTS request: 
+
+今天感觉好，天气不错，休息一下吧。
+2026-01-10 17:00:38,548 [INFO] tts_app: Received TTS request: 
+
+今天感觉好，天气不错，休息一下吧。
+2026-01-10 17:00:38,548 [INFO] tts_app: Start TTS synthesize: 
+
+今天感觉好，天气不错，休息一下吧。
+2026-01-10 17:00:38,548 [INFO] tts_app: Start TTS synthesize: 
+
+今天感觉好，天气不错，休息一下吧。
+2026-01-10 17:00:38,557 [INFO] tts_app: Received TTS request: 
+
+神经病是一种常见的慢性疾病，主要表现为持续性、反复性的神经症状，如疼痛、僵硬、视力模糊、言语障碍等。这些症状通常与神经系统的异常活动有关，可能由神经系统的疾病或损伤导致。常见症状包括持续性疼痛、僵硬、视力模糊、言语障碍、情绪问题、疲劳等症状。成因可能包括神经系统的疾病，如阿尔茨海默病、帕金森病、多巴胺症等，也可能是神经系统的损伤，如脑损伤、脑膜炎等。治疗需要综合的医疗策略，包括神经科、心理科、康复科的协作。神经病对患者的影响包括生活不便、心理健康问题，但许多患者可以通过康复手段改善症状。
+2026-01-10 17:00:38,557 [INFO] tts_app: Received TTS request: 
+
+神经病是一种常见的慢性疾病，主要表现为持续性、反复性的神经症状，如疼痛、僵硬、视力模糊、言语障碍等。这些症状通常与神经系统的异常活动有关，可能由神经系统的疾病或损伤导致。常见症状包括持续性疼痛、僵硬、视力模糊、言语障碍、情绪问题、疲劳等症状。成因可能包括神经系统的疾病，如阿尔茨海默病、帕金森病、多巴胺症等，也可能是神经系统的损伤，如脑损伤、脑膜炎等。治疗需要综合的医疗策略，包括神经科、心理科、康复科的协作。神经病对患者的影响包括生活不便、心理健康问题，但许多患者可以通过康复手段改善症状。
+2026-01-10 17:00:38,558 [INFO] tts_app: Start TTS synthesize: 
+
+神经病是一种常见的慢性疾病，主要表现为持续性、反复性的神经症状，如疼痛、僵硬、视力模糊、言语障碍等。这些症状通常与神经系统的异常活动有关，可能由神经系统的疾病或损伤导致。常见症状包括持续性疼痛、僵硬、视力模糊、言语障碍、情绪问题、疲劳等症状。成因可能包括神经系统的疾病，如阿尔茨海默病、帕金森病、多巴胺症等，也可能是神经系统的损伤，如脑损伤、脑膜炎等。治疗需要综合的医疗策略，包括神经科、心理科、康复科的协作。神经病对患者的影响包括生活不便、心理健康问题，但许多患者可以通过康复手段改善症状。
+2026-01-10 17:00:38,558 [INFO] tts_app: Start TTS synthesize: 
+
+神经病是一种常见的慢性疾病，主要表现为持续性、反复性的神经症状，如疼痛、僵硬、视力模糊、言语障碍等。这些症状通常与神经系统的异常活动有关，可能由神经系统的疾病或损伤导致。常见症状包括持续性疼痛、僵硬、视力模糊、言语障碍、情绪问题、疲劳等症状。成因可能包括神经系统的疾病，如阿尔茨海默病、帕金森病、多巴胺症等，也可能是神经系统的损伤，如脑损伤、脑膜炎等。治疗需要综合的医疗策略，包括神经科、心理科、康复科的协作。神经病对患者的影响包括生活不便、心理健康问题，但许多患者可以通过康复手段改善症状。
+2026-01-10 17:00:38,567 [INFO] tts_app: Received TTS request: 
+
+“那个”通常用于询问对方是否有某物或某人存在。例如，可以说“你有那个钱吗？”，回答“是的，我有。
+2026-01-10 17:00:38,567 [INFO] tts_app: Received TTS request: 
+
+“那个”通常用于询问对方是否有某物或某人存在。例如，可以说“你有那个钱吗？”，回答“是的，我有。
+2026-01-10 17:00:38,568 [INFO] tts_app: Start TTS synthesize: 
+
+“那个”通常用于询问对方是否有某物或某人存在。例如，可以说“你有那个钱吗？”，回答“是的，我有。
+2026-01-10 17:00:38,568 [INFO] tts_app: Start TTS synthesize: 
+
+“那个”通常用于询问对方是否有某物或某人存在。例如，可以说“你有那个钱吗？”，回答“是的，我有。
+2026-01-10 17:00:38,576 [INFO] tts_app: Received TTS request: 
+
+“什么意思”是指事物的含义或意义。
+2026-01-10 17:00:38,576 [INFO] tts_app: Received TTS request: 
+
+“什么意思”是指事物的含义或意义。
+2026-01-10 17:00:38,577 [INFO] tts_app: Start TTS synthesize: 
+
+“什么意思”是指事物的含义或意义。
+2026-01-10 17:00:38,577 [INFO] tts_app: Start TTS synthesize: 
+
+“什么意思”是指事物的含义或意义。
+2026-01-10 17:00:47,334 [INFO] tts_app: Playback finished: 
+
+今天感觉好，天气不错，休息一下吧。
+2026-01-10 17:00:47,334 [INFO] tts_app: Playback finished: 
+
+今天感觉好，天气不错，休息一下吧。
+2026-01-10 17:00:53,830 [INFO] tts_app: Playback finished: 
+
+“什么意思”是指事物的含义或意义。
+2026-01-10 17:00:53,830 [INFO] tts_app: Playback finished: 
+
+“什么意思”是指事物的含义或意义。
+2026-01-10 17:01:07,209 [INFO] tts_app: Playback finished: 
+
+“那个”通常用于询问对方是否有某物或某人存在。例如，可以说“你有那个钱吗？”，回答“是的，我有。
+2026-01-10 17:01:07,209 [INFO] tts_app: Playback finished: 
+
+“那个”通常用于询问对方是否有某物或某人存在。例如，可以说“你有那个钱吗？”，回答“是的，我有。
+2026-01-11 06:55:59,064 [INFO] tts_app: Received TTS request: 
+
+专注学习，坚持进步！
+2026-01-11 06:55:59,064 [INFO] tts_app: Received TTS request: 
+
+专注学习，坚持进步！
+2026-01-11 06:55:59,066 [INFO] tts_app: Start TTS synthesize: 
+
+专注学习，坚持进步！
+2026-01-11 06:55:59,066 [INFO] tts_app: Start TTS synthesize: 
+
+专注学习，坚持进步！
+2026-01-11 06:56:04,094 [INFO] tts_app: Playback finished: 
+
+专注学习，坚持进步！
+2026-01-11 06:56:04,094 [INFO] tts_app: Playback finished: 
+
+专注学习，坚持进步！
+2026-01-11 06:56:25,988 [INFO] tts_app: Received TTS request: 
+
+美国近期主要新闻包括：美国经济表现强劲，多项经济数据显示增长；美国政府宣布对移民政策进行改革；美国联邦储备委员会调整利率；美国国内多起重大案件受到关注。
+2026-01-11 06:56:25,988 [INFO] tts_app: Received TTS request: 
+
+美国近期主要新闻包括：美国经济表现强劲，多项经济数据显示增长；美国政府宣布对移民政策进行改革；美国联邦储备委员会调整利率；美国国内多起重大案件受到关注。
+2026-01-11 06:56:25,989 [INFO] tts_app: Start TTS synthesize: 
+
+美国近期主要新闻包括：美国经济表现强劲，多项经济数据显示增长；美国政府宣布对移民政策进行改革；美国联邦储备委员会调整利率；美国国内多起重大案件受到关注。
+2026-01-11 06:56:25,989 [INFO] tts_app: Start TTS synthesize: 
+
+美国近期主要新闻包括：美国经济表现强劲，多项经济数据显示增长；美国政府宣布对移民政策进行改革；美国联邦储备委员会调整利率；美国国内多起重大案件受到关注。
+2026-01-11 06:56:45,230 [INFO] tts_app: Playback finished: 
+
+美国近期主要新闻包括：美国经济表现强劲，多项经济数据显示增长；美国政府宣布对移民政策进行改革；美国联邦储备委员会调整利率；美国国内多起重大案件受到关注。
+2026-01-11 06:56:45,230 [INFO] tts_app: Playback finished: 
+
+美国近期主要新闻包括：美国经济表现强劲，多项经济数据显示增长；美国政府宣布对移民政策进行改革；美国联邦储备委员会调整利率；美国国内多起重大案件受到关注。
+2026-01-11 07:24:14,657 [INFO] tts_app: Received TTS play request: 请求失败，请检查服务是否正常运行。
+2026-01-11 07:24:14,657 [INFO] tts_app: Received TTS play request: 请求失败，请检查服务是否正常运行。
+2026-01-11 07:24:14,658 [INFO] tts_app: Start TTS synthesize/play: 请求失败，请检查服务是否正常运行。
+2026-01-11 07:24:14,658 [INFO] tts_app: Start TTS synthesize/play: 请求失败，请检查服务是否正常运行。
+2026-01-11 07:24:14,693 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:24:14,693 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:24:21,428 [INFO] tts_app: Playback finished: 请求失败，请检查服务是否正常运行。
+2026-01-11 07:24:21,428 [INFO] tts_app: Playback finished: 请求失败，请检查服务是否正常运行。
+2026-01-11 07:24:21,431 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 07:24:21,431 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 07:24:44,460 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:24:44,460 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:24:44,501 [INFO] tts_app: Received TTS play request: 请求失败，请检查服务是否正常运行。
+2026-01-11 07:24:44,501 [INFO] tts_app: Received TTS play request: 请求失败，请检查服务是否正常运行。
+2026-01-11 07:24:44,503 [INFO] tts_app: Start TTS synthesize/play: 请求失败，请检查服务是否正常运行。
+2026-01-11 07:24:44,503 [INFO] tts_app: Start TTS synthesize/play: 请求失败，请检查服务是否正常运行。
+2026-01-11 07:24:45,883 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 07:24:45,883 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 07:24:51,349 [INFO] tts_app: Playback finished: 请求失败，请检查服务是否正常运行。
+2026-01-11 07:24:51,349 [INFO] tts_app: Playback finished: 请求失败，请检查服务是否正常运行。
+2026-01-11 07:25:10,994 [INFO] tts_app: Synthesize (mp3) start, len=67, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:25:10,994 [INFO] tts_app: Synthesize (mp3) start, len=67, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:25:11,037 [INFO] tts_app: Received TTS play request: 美国最近天气转暖，但部分地区可能有阵雨或雷暴，部分地区可能有大风。西海岸可能有冷空气从北风中吹来，影响东部地区，导致部分地区温度下降。
+2026-01-11 07:25:11,037 [INFO] tts_app: Received TTS play request: 美国最近天气转暖，但部分地区可能有阵雨或雷暴，部分地区可能有大风。西海岸可能有冷空气从北风中吹来，影响东部地区，导致部分地区温度下降。
+2026-01-11 07:25:11,037 [INFO] tts_app: Start TTS synthesize/play: 美国最近天气转暖，但部分地区可能有阵雨或雷暴，部分地区可能有大风。西海岸可能有冷空气从北风中吹来，影响东部地区，导致部分地区温度下降。
+2026-01-11 07:25:11,037 [INFO] tts_app: Start TTS synthesize/play: 美国最近天气转暖，但部分地区可能有阵雨或雷暴，部分地区可能有大风。西海岸可能有冷空气从北风中吹来，影响东部地区，导致部分地区温度下降。
+2026-01-11 07:25:12,990 [INFO] tts_app: Synthesize (mp3) done, bytes=88272
+2026-01-11 07:25:12,990 [INFO] tts_app: Synthesize (mp3) done, bytes=88272
+2026-01-11 07:25:28,940 [INFO] tts_app: Playback finished: 美国最近天气转暖，但部分地区可能有阵雨或雷暴，部分地区可能有大风。西海岸可能有冷空气从北风中吹来，影响东部地区，导致部分地区温度下降。
+2026-01-11 07:25:28,940 [INFO] tts_app: Playback finished: 美国最近天气转暖，但部分地区可能有阵雨或雷暴，部分地区可能有大风。西海岸可能有冷空气从北风中吹来，影响东部地区，导致部分地区温度下降。
+2026-01-11 07:28:16,306 [INFO] tts_app: Synthesize (mp3) start, len=78, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:28:16,306 [INFO] tts_app: Synthesize (mp3) start, len=78, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:28:16,341 [INFO] tts_app: Received TTS play request: 美国最近的新闻包括：GDP增长高于预期，就业数据显示经济复苏，军事动态显示对乌克兰和南海的行动，政治事件涉及选举和政策变化，国际事件包括俄乌冲突和南海局势。
+2026-01-11 07:28:16,341 [INFO] tts_app: Received TTS play request: 美国最近的新闻包括：GDP增长高于预期，就业数据显示经济复苏，军事动态显示对乌克兰和南海的行动，政治事件涉及选举和政策变化，国际事件包括俄乌冲突和南海局势。
+2026-01-11 07:28:16,342 [INFO] tts_app: Start TTS synthesize/play: 美国最近的新闻包括：GDP增长高于预期，就业数据显示经济复苏，军事动态显示对乌克兰和南海的行动，政治事件涉及选举和政策变化，国际事件包括俄乌冲突和南海局势。
+2026-01-11 07:28:16,342 [INFO] tts_app: Start TTS synthesize/play: 美国最近的新闻包括：GDP增长高于预期，就业数据显示经济复苏，军事动态显示对乌克兰和南海的行动，政治事件涉及选举和政策变化，国际事件包括俄乌冲突和南海局势。
+2026-01-11 07:28:18,445 [INFO] tts_app: Synthesize (mp3) done, bytes=102960
+2026-01-11 07:28:18,445 [INFO] tts_app: Synthesize (mp3) done, bytes=102960
+2026-01-11 07:28:36,613 [INFO] tts_app: Playback finished: 美国最近的新闻包括：GDP增长高于预期，就业数据显示经济复苏，军事动态显示对乌克兰和南海的行动，政治事件涉及选举和政策变化，国际事件包括俄乌冲突和南海局势。
+2026-01-11 07:28:36,613 [INFO] tts_app: Playback finished: 美国最近的新闻包括：GDP增长高于预期，就业数据显示经济复苏，军事动态显示对乌克兰和南海的行动，政治事件涉及选举和政策变化，国际事件包括俄乌冲突和南海局势。
+2026-01-11 07:34:19,360 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:34:19,360 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:34:20,844 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 07:34:20,844 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 07:34:39,072 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:34:39,072 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:34:40,585 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 07:34:40,585 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 07:34:53,038 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:34:53,038 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:34:54,512 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 07:34:54,512 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 07:35:05,165 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:35:05,165 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:35:06,588 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 07:35:06,588 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 07:35:31,708 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:35:31,708 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:35:33,215 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 07:35:33,215 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 07:36:03,372 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:36:03,372 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:36:04,830 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 07:36:04,830 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 07:37:12,874 [INFO] tts_app: Synthesize (mp3) start, len=228, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:37:12,874 [INFO] tts_app: Synthesize (mp3) start, len=228, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:37:16,666 [INFO] tts_app: Synthesize (mp3) done, bytes=288432
+2026-01-11 07:37:16,666 [INFO] tts_app: Synthesize (mp3) done, bytes=288432
+2026-01-11 07:47:57,197 [INFO] tts_app: Synthesize (mp3) start, len=79, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:47:57,197 [INFO] tts_app: Synthesize (mp3) start, len=79, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:47:59,224 [INFO] tts_app: Synthesize (mp3) done, bytes=105120
+2026-01-11 07:47:59,224 [INFO] tts_app: Synthesize (mp3) done, bytes=105120
+2026-01-11 07:48:34,343 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:48:34,343 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:48:35,841 [INFO] tts_app: Synthesize (mp3) done, bytes=23904
+2026-01-11 07:48:35,841 [INFO] tts_app: Synthesize (mp3) done, bytes=23904
+2026-01-11 07:49:37,136 [INFO] tts_app: Synthesize (mp3) start, len=207, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:49:37,136 [INFO] tts_app: Synthesize (mp3) start, len=207, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:49:40,428 [INFO] tts_app: Synthesize (mp3) done, bytes=260928
+2026-01-11 07:49:40,428 [INFO] tts_app: Synthesize (mp3) done, bytes=260928
+2026-01-11 07:50:41,624 [INFO] tts_app: Synthesize (mp3) start, len=12, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:50:41,624 [INFO] tts_app: Synthesize (mp3) start, len=12, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:50:43,229 [INFO] tts_app: Synthesize (mp3) done, bytes=15120
+2026-01-11 07:50:43,229 [INFO] tts_app: Synthesize (mp3) done, bytes=15120
+2026-01-11 07:52:10,582 [INFO] tts_app: Synthesize (mp3) start, len=4, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:52:10,582 [INFO] tts_app: Synthesize (mp3) start, len=4, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:52:12,067 [INFO] tts_app: Synthesize (mp3) done, bytes=9648
+2026-01-11 07:52:12,067 [INFO] tts_app: Synthesize (mp3) done, bytes=9648
+2026-01-11 07:52:32,878 [INFO] tts_app: Synthesize (mp3) start, len=20, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:52:32,878 [INFO] tts_app: Synthesize (mp3) start, len=20, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 07:52:34,433 [INFO] tts_app: Synthesize (mp3) done, bytes=24624
+2026-01-11 07:52:34,433 [INFO] tts_app: Synthesize (mp3) done, bytes=24624
+2026-01-11 08:01:22,989 [INFO] tts_app: Synthesize (mp3) start, len=10, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 08:01:22,989 [INFO] tts_app: Synthesize (mp3) start, len=10, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 08:01:24,475 [INFO] tts_app: Synthesize (mp3) done, bytes=14976
+2026-01-11 08:01:24,475 [INFO] tts_app: Synthesize (mp3) done, bytes=14976
+2026-01-11 09:35:28,117 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:35:28,117 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:35:29,635 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:35:29,635 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:35:30,076 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:35:30,076 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:35:31,476 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:35:31,476 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:35:40,290 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:35:40,290 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:35:40,434 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:35:40,434 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:35:41,819 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:35:41,819 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:35:41,882 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:35:41,882 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:35:42,119 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:35:42,119 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:35:43,551 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:35:43,551 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:35:50,836 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:35:50,836 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:35:52,280 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:35:52,280 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:35:53,623 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:35:53,623 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:35:55,164 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:35:55,164 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:36:03,569 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:03,569 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:03,587 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:03,587 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:05,046 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:36:05,046 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:36:05,098 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:36:05,098 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:36:05,871 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:05,871 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:07,301 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:36:07,301 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:36:08,182 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:08,182 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:09,257 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:09,257 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:09,533 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:09,533 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:09,604 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:36:09,604 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:36:10,247 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:10,247 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:10,686 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:36:10,686 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:36:10,991 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:36:10,991 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:36:11,779 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:36:11,779 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:36:13,171 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:13,171 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:14,612 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:36:14,612 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-11 09:36:24,907 [INFO] tts_app: Synthesize (mp3) start, len=57, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:24,907 [INFO] tts_app: Synthesize (mp3) start, len=57, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:26,767 [INFO] tts_app: Synthesize (mp3) done, bytes=59184
+2026-01-11 09:36:26,767 [INFO] tts_app: Synthesize (mp3) done, bytes=59184
+2026-01-11 09:36:49,502 [INFO] tts_app: Synthesize (mp3) start, len=32, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:49,502 [INFO] tts_app: Synthesize (mp3) start, len=32, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:51,276 [INFO] tts_app: Synthesize (mp3) done, bytes=38592
+2026-01-11 09:36:51,276 [INFO] tts_app: Synthesize (mp3) done, bytes=38592
+2026-01-11 09:36:55,910 [INFO] tts_app: Synthesize (mp3) start, len=14, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:55,910 [INFO] tts_app: Synthesize (mp3) start, len=14, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:36:57,558 [INFO] tts_app: Synthesize (mp3) done, bytes=19728
+2026-01-11 09:36:57,558 [INFO] tts_app: Synthesize (mp3) done, bytes=19728
+2026-01-11 09:37:19,408 [INFO] tts_app: Synthesize (mp3) start, len=71, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:37:19,408 [INFO] tts_app: Synthesize (mp3) start, len=71, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:37:21,503 [INFO] tts_app: Synthesize (mp3) done, bytes=89856
+2026-01-11 09:37:21,503 [INFO] tts_app: Synthesize (mp3) done, bytes=89856
+2026-01-11 09:37:31,836 [INFO] tts_app: Synthesize (mp3) start, len=88, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:37:31,836 [INFO] tts_app: Synthesize (mp3) start, len=88, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:37:34,173 [INFO] tts_app: Synthesize (mp3) done, bytes=109440
+2026-01-11 09:37:34,173 [INFO] tts_app: Synthesize (mp3) done, bytes=109440
+2026-01-11 09:37:50,209 [INFO] tts_app: Synthesize (mp3) start, len=10, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:37:50,209 [INFO] tts_app: Synthesize (mp3) start, len=10, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:37:50,510 [INFO] tts_app: Synthesize (mp3) start, len=55, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:37:50,510 [INFO] tts_app: Synthesize (mp3) start, len=55, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:37:51,815 [INFO] tts_app: Synthesize (mp3) done, bytes=15408
+2026-01-11 09:37:51,815 [INFO] tts_app: Synthesize (mp3) done, bytes=15408
+2026-01-11 09:37:52,299 [INFO] tts_app: Synthesize (mp3) done, bytes=68400
+2026-01-11 09:37:52,299 [INFO] tts_app: Synthesize (mp3) done, bytes=68400
+2026-01-11 09:38:08,043 [INFO] tts_app: Synthesize (mp3) start, len=110, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:38:08,043 [INFO] tts_app: Synthesize (mp3) start, len=110, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:38:10,735 [INFO] tts_app: Synthesize (mp3) done, bytes=152496
+2026-01-11 09:38:10,735 [INFO] tts_app: Synthesize (mp3) done, bytes=152496
+2026-01-11 09:38:59,361 [INFO] tts_app: Synthesize (mp3) start, len=56, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:38:59,361 [INFO] tts_app: Synthesize (mp3) start, len=56, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:39:01,126 [INFO] tts_app: Synthesize (mp3) start, len=36, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:39:01,126 [INFO] tts_app: Synthesize (mp3) start, len=36, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:39:01,335 [INFO] tts_app: Synthesize (mp3) done, bytes=71136
+2026-01-11 09:39:01,335 [INFO] tts_app: Synthesize (mp3) done, bytes=71136
+2026-01-11 09:39:02,953 [INFO] tts_app: Synthesize (mp3) done, bytes=50112
+2026-01-11 09:39:02,953 [INFO] tts_app: Synthesize (mp3) done, bytes=50112
+2026-01-11 09:39:04,782 [INFO] tts_app: Synthesize (mp3) start, len=24, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:39:04,782 [INFO] tts_app: Synthesize (mp3) start, len=24, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:39:06,392 [INFO] tts_app: Synthesize (mp3) done, bytes=33120
+2026-01-11 09:39:06,392 [INFO] tts_app: Synthesize (mp3) done, bytes=33120
+2026-01-11 09:39:08,708 [INFO] tts_app: Synthesize (mp3) start, len=19, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:39:08,708 [INFO] tts_app: Synthesize (mp3) start, len=19, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:39:10,314 [INFO] tts_app: Synthesize (mp3) done, bytes=13536
+2026-01-11 09:39:10,314 [INFO] tts_app: Synthesize (mp3) done, bytes=13536
+2026-01-11 09:39:13,698 [INFO] tts_app: Synthesize (mp3) start, len=7, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:39:13,698 [INFO] tts_app: Synthesize (mp3) start, len=7, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:39:13,903 [INFO] tts_app: Synthesize (mp3) start, len=30, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:39:13,903 [INFO] tts_app: Synthesize (mp3) start, len=30, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:39:15,205 [INFO] tts_app: Synthesize (mp3) done, bytes=13104
+2026-01-11 09:39:15,205 [INFO] tts_app: Synthesize (mp3) done, bytes=13104
+2026-01-11 09:39:15,608 [INFO] tts_app: Synthesize (mp3) done, bytes=38592
+2026-01-11 09:39:15,608 [INFO] tts_app: Synthesize (mp3) done, bytes=38592
+2026-01-11 09:39:24,971 [INFO] tts_app: Synthesize (mp3) start, len=20, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:39:24,971 [INFO] tts_app: Synthesize (mp3) start, len=20, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:39:26,570 [INFO] tts_app: Synthesize (mp3) done, bytes=25344
+2026-01-11 09:39:26,570 [INFO] tts_app: Synthesize (mp3) done, bytes=25344
+2026-01-11 09:39:47,440 [INFO] tts_app: Synthesize (mp3) start, len=103, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:39:47,440 [INFO] tts_app: Synthesize (mp3) start, len=103, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:39:49,827 [INFO] tts_app: Synthesize (mp3) done, bytes=128160
+2026-01-11 09:39:49,827 [INFO] tts_app: Synthesize (mp3) done, bytes=128160
+2026-01-11 09:40:32,150 [INFO] tts_app: Synthesize (mp3) start, len=50, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:40:32,150 [INFO] tts_app: Synthesize (mp3) start, len=50, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:40:34,297 [INFO] tts_app: Synthesize (mp3) done, bytes=66960
+2026-01-11 09:40:34,297 [INFO] tts_app: Synthesize (mp3) done, bytes=66960
+2026-01-11 09:41:13,358 [INFO] tts_app: Synthesize (mp3) start, len=49, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:41:13,358 [INFO] tts_app: Synthesize (mp3) start, len=49, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:41:15,195 [INFO] tts_app: Synthesize (mp3) done, bytes=61920
+2026-01-11 09:41:15,195 [INFO] tts_app: Synthesize (mp3) done, bytes=61920
+2026-01-11 09:41:17,338 [INFO] tts_app: Synthesize (mp3) start, len=51, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:41:17,338 [INFO] tts_app: Synthesize (mp3) start, len=51, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:41:19,528 [INFO] tts_app: Synthesize (mp3) done, bytes=66096
+2026-01-11 09:41:19,528 [INFO] tts_app: Synthesize (mp3) done, bytes=66096
+2026-01-11 09:41:45,683 [INFO] tts_app: Synthesize (mp3) start, len=90, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:41:45,683 [INFO] tts_app: Synthesize (mp3) start, len=90, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:41:45,730 [INFO] tts_app: Synthesize (mp3) start, len=16, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:41:45,730 [INFO] tts_app: Synthesize (mp3) start, len=16, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:41:47,253 [INFO] tts_app: Synthesize (mp3) done, bytes=21312
+2026-01-11 09:41:47,253 [INFO] tts_app: Synthesize (mp3) done, bytes=21312
+2026-01-11 09:41:47,762 [INFO] tts_app: Synthesize (mp3) done, bytes=103680
+2026-01-11 09:41:47,762 [INFO] tts_app: Synthesize (mp3) done, bytes=103680
+2026-01-11 09:41:51,041 [INFO] tts_app: Synthesize (mp3) start, len=22, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:41:51,041 [INFO] tts_app: Synthesize (mp3) start, len=22, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:41:52,746 [INFO] tts_app: Synthesize (mp3) done, bytes=26496
+2026-01-11 09:41:52,746 [INFO] tts_app: Synthesize (mp3) done, bytes=26496
+2026-01-11 09:41:52,807 [INFO] tts_app: Synthesize (mp3) start, len=27, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:41:52,807 [INFO] tts_app: Synthesize (mp3) start, len=27, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:41:54,634 [INFO] tts_app: Synthesize (mp3) done, bytes=29088
+2026-01-11 09:41:54,634 [INFO] tts_app: Synthesize (mp3) done, bytes=29088
+2026-01-11 09:42:17,703 [INFO] tts_app: Synthesize (mp3) start, len=6, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:42:17,703 [INFO] tts_app: Synthesize (mp3) start, len=6, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:42:19,230 [INFO] tts_app: Synthesize (mp3) done, bytes=10080
+2026-01-11 09:42:19,230 [INFO] tts_app: Synthesize (mp3) done, bytes=10080
+2026-01-11 09:42:21,346 [INFO] tts_app: Synthesize (mp3) start, len=43, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:42:21,346 [INFO] tts_app: Synthesize (mp3) start, len=43, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:42:23,258 [INFO] tts_app: Synthesize (mp3) done, bytes=57168
+2026-01-11 09:42:23,258 [INFO] tts_app: Synthesize (mp3) done, bytes=57168
+2026-01-11 09:42:24,454 [INFO] tts_app: Synthesize (mp3) start, len=6, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:42:24,454 [INFO] tts_app: Synthesize (mp3) start, len=6, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:42:25,924 [INFO] tts_app: Synthesize (mp3) done, bytes=10080
+2026-01-11 09:42:25,924 [INFO] tts_app: Synthesize (mp3) done, bytes=10080
+2026-01-11 09:42:37,804 [INFO] tts_app: Synthesize (mp3) start, len=84, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:42:37,804 [INFO] tts_app: Synthesize (mp3) start, len=84, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:42:39,974 [INFO] tts_app: Synthesize (mp3) done, bytes=108576
+2026-01-11 09:42:39,974 [INFO] tts_app: Synthesize (mp3) done, bytes=108576
+2026-01-11 09:43:05,387 [INFO] tts_app: Synthesize (mp3) start, len=3, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:43:05,387 [INFO] tts_app: Synthesize (mp3) start, len=3, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:43:06,821 [INFO] tts_app: Synthesize (mp3) done, bytes=7632
+2026-01-11 09:43:06,821 [INFO] tts_app: Synthesize (mp3) done, bytes=7632
+2026-01-11 09:43:11,412 [INFO] tts_app: Synthesize (mp3) start, len=9, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:43:11,412 [INFO] tts_app: Synthesize (mp3) start, len=9, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:43:12,974 [INFO] tts_app: Synthesize (mp3) done, bytes=14256
+2026-01-11 09:43:12,974 [INFO] tts_app: Synthesize (mp3) done, bytes=14256
+2026-01-11 09:43:34,611 [INFO] tts_app: Synthesize (mp3) start, len=91, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:43:34,611 [INFO] tts_app: Synthesize (mp3) start, len=91, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:43:36,755 [INFO] tts_app: Synthesize (mp3) done, bytes=114912
+2026-01-11 09:43:36,755 [INFO] tts_app: Synthesize (mp3) done, bytes=114912
+2026-01-11 09:44:48,892 [INFO] tts_app: Synthesize (mp3) start, len=20, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:44:48,892 [INFO] tts_app: Synthesize (mp3) start, len=20, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:44:50,576 [INFO] tts_app: Synthesize (mp3) done, bytes=26640
+2026-01-11 09:44:50,576 [INFO] tts_app: Synthesize (mp3) done, bytes=26640
+2026-01-11 09:44:50,653 [INFO] tts_app: Synthesize (mp3) start, len=54, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:44:50,653 [INFO] tts_app: Synthesize (mp3) start, len=54, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:44:52,875 [INFO] tts_app: Synthesize (mp3) done, bytes=72000
+2026-01-11 09:44:52,875 [INFO] tts_app: Synthesize (mp3) done, bytes=72000
+2026-01-11 09:45:07,729 [INFO] tts_app: Synthesize (mp3) start, len=4, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:45:07,729 [INFO] tts_app: Synthesize (mp3) start, len=4, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:45:09,296 [INFO] tts_app: Synthesize (mp3) done, bytes=9504
+2026-01-11 09:45:09,296 [INFO] tts_app: Synthesize (mp3) done, bytes=9504
+2026-01-11 09:45:12,032 [INFO] tts_app: Synthesize (mp3) start, len=18, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 09:45:12,032 [INFO] tts_app: Synthesize (mp3) start, len=18, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 10:43:15,544 [INFO] tts_app: Synthesize (mp3) start, len=6, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 10:43:15,544 [INFO] tts_app: Synthesize (mp3) start, len=6, voice=zh-CN-XiaoxiaoNeural
+2026-01-11 10:43:17,092 [INFO] tts_app: Synthesize (mp3) done, bytes=10080
+2026-01-11 10:43:17,092 [INFO] tts_app: Synthesize (mp3) done, bytes=10080
+2026-01-11 11:52:09,395 [ERROR] tts_app: TTS synthesize failed: Timeout on reading data from socket
+Traceback (most recent call last):
+  File "/home/songxm/devel/songxm/python/tts/server.py", line 71, in tts_synthesize
+    mp3_bytes = await synthesize_mp3_bytes(text, voice)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/songxm/devel/songxm/python/tts/server.py", line 52, in synthesize_mp3_bytes
+    async for chunk in tts.stream():
+  File "/home/songxm/anaconda3/lib/python3.11/site-packages/edge_tts/communicate.py", line 566, in stream
+    async for message in self.__stream():
+  File "/home/songxm/anaconda3/lib/python3.11/site-packages/edge_tts/communicate.py", line 431, in __stream
+    async with aiohttp.ClientSession(
+  File "/home/songxm/anaconda3/lib/python3.11/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "/home/songxm/anaconda3/lib/python3.11/site-packages/aiohttp/client.py", line 779, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/songxm/anaconda3/lib/python3.11/site-packages/aiohttp/client.py", line 560, in _request
+    await resp.start(conn)
+  File "/home/songxm/anaconda3/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 899, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/songxm/anaconda3/lib/python3.11/site-packages/aiohttp/streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerTimeoutError: Timeout on reading data from socket
+2026-01-11 11:52:09,395 [ERROR] tts_app: TTS synthesize failed: Timeout on reading data from socket
+Traceback (most recent call last):
+  File "/home/songxm/devel/songxm/python/tts/server.py", line 71, in tts_synthesize
+    mp3_bytes = await synthesize_mp3_bytes(text, voice)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/songxm/devel/songxm/python/tts/server.py", line 52, in synthesize_mp3_bytes
+    async for chunk in tts.stream():
+  File "/home/songxm/anaconda3/lib/python3.11/site-packages/edge_tts/communicate.py", line 566, in stream
+    async for message in self.__stream():
+  File "/home/songxm/anaconda3/lib/python3.11/site-packages/edge_tts/communicate.py", line 431, in __stream
+    async with aiohttp.ClientSession(
+  File "/home/songxm/anaconda3/lib/python3.11/site-packages/aiohttp/client.py", line 1141, in __aenter__
+    self._resp = await self._coro
+                 ^^^^^^^^^^^^^^^^
+  File "/home/songxm/anaconda3/lib/python3.11/site-packages/aiohttp/client.py", line 779, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/songxm/anaconda3/lib/python3.11/site-packages/aiohttp/client.py", line 560, in _request
+    await resp.start(conn)
+  File "/home/songxm/anaconda3/lib/python3.11/site-packages/aiohttp/client_reqrep.py", line 899, in start
+    message, payload = await protocol.read()  # type: ignore[union-attr]
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/songxm/anaconda3/lib/python3.11/site-packages/aiohttp/streams.py", line 616, in read
+    await self._waiter
+aiohttp.client_exceptions.ServerTimeoutError: Timeout on reading data from socket
+2026-01-12 14:15:56,011 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 14:15:56,011 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 14:15:57,919 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 14:15:57,919 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 14:16:55,925 [INFO] tts_app: Synthesize (mp3) start, len=65, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 14:16:55,925 [INFO] tts_app: Synthesize (mp3) start, len=65, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 14:16:58,312 [INFO] tts_app: Synthesize (mp3) done, bytes=89424
+2026-01-12 14:16:58,312 [INFO] tts_app: Synthesize (mp3) done, bytes=89424
+2026-01-12 14:30:08,160 [INFO] tts_app: Synthesize (mp3) start, len=64, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 14:30:08,160 [INFO] tts_app: Synthesize (mp3) start, len=64, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 14:30:09,975 [INFO] tts_app: Synthesize (mp3) done, bytes=70848
+2026-01-12 14:30:09,975 [INFO] tts_app: Synthesize (mp3) done, bytes=70848
+2026-01-12 14:32:47,169 [INFO] tts_app: Synthesize (mp3) start, len=36, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 14:32:47,169 [INFO] tts_app: Synthesize (mp3) start, len=36, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 14:32:49,231 [INFO] tts_app: Synthesize (mp3) done, bytes=45216
+2026-01-12 14:32:49,231 [INFO] tts_app: Synthesize (mp3) done, bytes=45216
+2026-01-12 16:50:54,222 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 16:50:54,222 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 16:50:56,022 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 16:50:56,022 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 16:59:20,675 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 16:59:20,675 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 16:59:22,494 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 16:59:22,494 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 17:00:16,145 [INFO] tts_app: Synthesize (mp3) start, len=10, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:00:16,145 [INFO] tts_app: Synthesize (mp3) start, len=10, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:00:22,798 [INFO] tts_app: Synthesize (mp3) done, bytes=15840
+2026-01-12 17:00:22,798 [INFO] tts_app: Synthesize (mp3) done, bytes=15840
+2026-01-12 17:08:49,955 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:08:49,955 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:08:51,752 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 17:08:51,752 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 17:12:50,198 [INFO] tts_app: Synthesize (mp3) start, len=10, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:12:50,198 [INFO] tts_app: Synthesize (mp3) start, len=10, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:12:51,897 [INFO] tts_app: Synthesize (mp3) done, bytes=15840
+2026-01-12 17:12:51,897 [INFO] tts_app: Synthesize (mp3) done, bytes=15840
+2026-01-12 17:13:07,878 [INFO] tts_app: Synthesize (mp3) start, len=4, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:13:07,878 [INFO] tts_app: Synthesize (mp3) start, len=4, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:13:09,584 [INFO] tts_app: Synthesize (mp3) done, bytes=9936
+2026-01-12 17:13:09,584 [INFO] tts_app: Synthesize (mp3) done, bytes=9936
+2026-01-12 17:14:36,654 [INFO] tts_app: Synthesize (mp3) start, len=2, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:14:36,654 [INFO] tts_app: Synthesize (mp3) start, len=2, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:14:38,416 [INFO] tts_app: Synthesize (mp3) done, bytes=7488
+2026-01-12 17:14:38,416 [INFO] tts_app: Synthesize (mp3) done, bytes=7488
+2026-01-12 17:14:46,866 [INFO] tts_app: Synthesize (mp3) start, len=90, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:14:46,866 [INFO] tts_app: Synthesize (mp3) start, len=90, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:14:49,696 [INFO] tts_app: Synthesize (mp3) done, bytes=110880
+2026-01-12 17:14:49,696 [INFO] tts_app: Synthesize (mp3) done, bytes=110880
+2026-01-12 17:14:52,037 [INFO] tts_app: Synthesize (mp3) start, len=34, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:14:52,037 [INFO] tts_app: Synthesize (mp3) start, len=34, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:14:54,361 [INFO] tts_app: Synthesize (mp3) done, bytes=44640
+2026-01-12 17:14:54,361 [INFO] tts_app: Synthesize (mp3) done, bytes=44640
+2026-01-12 17:15:04,609 [INFO] tts_app: Synthesize (mp3) start, len=11, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:15:04,609 [INFO] tts_app: Synthesize (mp3) start, len=11, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:15:06,571 [INFO] tts_app: Synthesize (mp3) done, bytes=17280
+2026-01-12 17:15:06,571 [INFO] tts_app: Synthesize (mp3) done, bytes=17280
+2026-01-12 17:15:18,072 [INFO] tts_app: Synthesize (mp3) start, len=13, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:15:18,072 [INFO] tts_app: Synthesize (mp3) start, len=13, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:15:18,483 [INFO] tts_app: Synthesize (mp3) start, len=9, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:15:18,483 [INFO] tts_app: Synthesize (mp3) start, len=9, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:15:19,799 [INFO] tts_app: Synthesize (mp3) done, bytes=21600
+2026-01-12 17:15:19,799 [INFO] tts_app: Synthesize (mp3) done, bytes=21600
+2026-01-12 17:15:20,349 [INFO] tts_app: Synthesize (mp3) done, bytes=12384
+2026-01-12 17:15:20,349 [INFO] tts_app: Synthesize (mp3) done, bytes=12384
+2026-01-12 17:15:23,286 [INFO] tts_app: Synthesize (mp3) start, len=20, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:15:23,286 [INFO] tts_app: Synthesize (mp3) start, len=20, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:15:25,078 [INFO] tts_app: Synthesize (mp3) done, bytes=28224
+2026-01-12 17:15:25,078 [INFO] tts_app: Synthesize (mp3) done, bytes=28224
+2026-01-12 17:15:31,741 [INFO] tts_app: Synthesize (mp3) start, len=26, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:15:31,741 [INFO] tts_app: Synthesize (mp3) start, len=26, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:15:33,769 [INFO] tts_app: Synthesize (mp3) done, bytes=34416
+2026-01-12 17:15:33,769 [INFO] tts_app: Synthesize (mp3) done, bytes=34416
+2026-01-12 17:15:44,425 [INFO] tts_app: Synthesize (mp3) start, len=8, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:15:44,425 [INFO] tts_app: Synthesize (mp3) start, len=8, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:15:46,227 [INFO] tts_app: Synthesize (mp3) done, bytes=12528
+2026-01-12 17:15:46,227 [INFO] tts_app: Synthesize (mp3) done, bytes=12528
+2026-01-12 17:15:55,224 [INFO] tts_app: Synthesize (mp3) start, len=12, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:15:55,224 [INFO] tts_app: Synthesize (mp3) start, len=12, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:15:57,256 [INFO] tts_app: Synthesize (mp3) done, bytes=19008
+2026-01-12 17:15:57,256 [INFO] tts_app: Synthesize (mp3) done, bytes=19008
+2026-01-12 17:16:23,997 [INFO] tts_app: Synthesize (mp3) start, len=8, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:16:23,997 [INFO] tts_app: Synthesize (mp3) start, len=8, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:16:25,965 [INFO] tts_app: Synthesize (mp3) done, bytes=12240
+2026-01-12 17:16:25,965 [INFO] tts_app: Synthesize (mp3) done, bytes=12240
+2026-01-12 17:16:29,810 [INFO] tts_app: Synthesize (mp3) start, len=40, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:16:29,810 [INFO] tts_app: Synthesize (mp3) start, len=40, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:16:32,103 [INFO] tts_app: Synthesize (mp3) done, bytes=48528
+2026-01-12 17:16:32,103 [INFO] tts_app: Synthesize (mp3) done, bytes=48528
+2026-01-12 17:16:33,413 [INFO] tts_app: Synthesize (mp3) start, len=26, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:16:33,413 [INFO] tts_app: Synthesize (mp3) start, len=26, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:16:35,319 [INFO] tts_app: Synthesize (mp3) done, bytes=34848
+2026-01-12 17:16:35,319 [INFO] tts_app: Synthesize (mp3) done, bytes=34848
+2026-01-12 17:16:55,481 [INFO] tts_app: Synthesize (mp3) start, len=161, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:16:55,481 [INFO] tts_app: Synthesize (mp3) start, len=161, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:16:57,650 [INFO] tts_app: Synthesize (mp3) start, len=10, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:16:57,650 [INFO] tts_app: Synthesize (mp3) start, len=10, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:16:58,813 [INFO] tts_app: Synthesize (mp3) done, bytes=208944
+2026-01-12 17:16:58,813 [INFO] tts_app: Synthesize (mp3) done, bytes=208944
+2026-01-12 17:16:59,383 [INFO] tts_app: Synthesize (mp3) done, bytes=13536
+2026-01-12 17:16:59,383 [INFO] tts_app: Synthesize (mp3) done, bytes=13536
+2026-01-12 17:17:00,584 [INFO] tts_app: Synthesize (mp3) start, len=14, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:00,584 [INFO] tts_app: Synthesize (mp3) start, len=14, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:02,413 [INFO] tts_app: Synthesize (mp3) done, bytes=19008
+2026-01-12 17:17:02,413 [INFO] tts_app: Synthesize (mp3) done, bytes=19008
+2026-01-12 17:17:06,563 [INFO] tts_app: Synthesize (mp3) start, len=57, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:06,563 [INFO] tts_app: Synthesize (mp3) start, len=57, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:08,129 [INFO] tts_app: Synthesize (mp3) start, len=16, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:08,129 [INFO] tts_app: Synthesize (mp3) start, len=16, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:08,740 [INFO] tts_app: Synthesize (mp3) done, bytes=71568
+2026-01-12 17:17:08,740 [INFO] tts_app: Synthesize (mp3) done, bytes=71568
+2026-01-12 17:17:09,990 [INFO] tts_app: Synthesize (mp3) done, bytes=22896
+2026-01-12 17:17:09,990 [INFO] tts_app: Synthesize (mp3) done, bytes=22896
+2026-01-12 17:17:10,834 [INFO] tts_app: Synthesize (mp3) start, len=44, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:10,834 [INFO] tts_app: Synthesize (mp3) start, len=44, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:12,394 [INFO] tts_app: Synthesize (mp3) start, len=1, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:12,394 [INFO] tts_app: Synthesize (mp3) start, len=1, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:12,897 [INFO] tts_app: Synthesize (mp3) done, bytes=60912
+2026-01-12 17:17:12,897 [INFO] tts_app: Synthesize (mp3) done, bytes=60912
+2026-01-12 17:17:14,028 [INFO] tts_app: Synthesize (mp3) done, bytes=6768
+2026-01-12 17:17:14,028 [INFO] tts_app: Synthesize (mp3) done, bytes=6768
+2026-01-12 17:17:16,007 [INFO] tts_app: Synthesize (mp3) start, len=47, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:16,007 [INFO] tts_app: Synthesize (mp3) start, len=47, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:18,421 [INFO] tts_app: Synthesize (mp3) done, bytes=61200
+2026-01-12 17:17:18,421 [INFO] tts_app: Synthesize (mp3) done, bytes=61200
+2026-01-12 17:17:26,468 [INFO] tts_app: Synthesize (mp3) start, len=6, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:26,468 [INFO] tts_app: Synthesize (mp3) start, len=6, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:28,181 [INFO] tts_app: Synthesize (mp3) done, bytes=11088
+2026-01-12 17:17:28,181 [INFO] tts_app: Synthesize (mp3) done, bytes=11088
+2026-01-12 17:17:31,665 [INFO] tts_app: Synthesize (mp3) start, len=1, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:31,665 [INFO] tts_app: Synthesize (mp3) start, len=1, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:33,304 [INFO] tts_app: Synthesize (mp3) done, bytes=6768
+2026-01-12 17:17:33,304 [INFO] tts_app: Synthesize (mp3) done, bytes=6768
+2026-01-12 17:17:43,164 [INFO] tts_app: Synthesize (mp3) start, len=55, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:43,164 [INFO] tts_app: Synthesize (mp3) start, len=55, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:45,358 [INFO] tts_app: Synthesize (mp3) done, bytes=66240
+2026-01-12 17:17:45,358 [INFO] tts_app: Synthesize (mp3) done, bytes=66240
+2026-01-12 17:17:57,049 [INFO] tts_app: Synthesize (mp3) start, len=22, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:57,049 [INFO] tts_app: Synthesize (mp3) start, len=22, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:17:58,886 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 17:17:58,886 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 17:18:06,474 [INFO] tts_app: Synthesize (mp3) start, len=26, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:18:06,474 [INFO] tts_app: Synthesize (mp3) start, len=26, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:18:08,436 [INFO] tts_app: Synthesize (mp3) done, bytes=37296
+2026-01-12 17:18:08,436 [INFO] tts_app: Synthesize (mp3) done, bytes=37296
+2026-01-12 17:18:18,134 [INFO] tts_app: Synthesize (mp3) start, len=35, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:18:18,134 [INFO] tts_app: Synthesize (mp3) start, len=35, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:18:18,941 [INFO] tts_app: Synthesize (mp3) start, len=6, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:18:18,941 [INFO] tts_app: Synthesize (mp3) start, len=6, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:18:20,218 [INFO] tts_app: Synthesize (mp3) done, bytes=45360
+2026-01-12 17:18:20,218 [INFO] tts_app: Synthesize (mp3) done, bytes=45360
+2026-01-12 17:18:20,720 [INFO] tts_app: Synthesize (mp3) done, bytes=12096
+2026-01-12 17:18:20,720 [INFO] tts_app: Synthesize (mp3) done, bytes=12096
+2026-01-12 17:18:34,918 [INFO] tts_app: Synthesize (mp3) start, len=11, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:18:34,918 [INFO] tts_app: Synthesize (mp3) start, len=11, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:18:36,694 [INFO] tts_app: Synthesize (mp3) done, bytes=15984
+2026-01-12 17:18:36,694 [INFO] tts_app: Synthesize (mp3) done, bytes=15984
+2026-01-12 17:18:48,173 [INFO] tts_app: Synthesize (mp3) start, len=66, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:18:48,173 [INFO] tts_app: Synthesize (mp3) start, len=66, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:18:50,833 [INFO] tts_app: Synthesize (mp3) done, bytes=84816
+2026-01-12 17:18:50,833 [INFO] tts_app: Synthesize (mp3) done, bytes=84816
+2026-01-12 17:19:16,909 [INFO] tts_app: Synthesize (mp3) start, len=27, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:19:16,909 [INFO] tts_app: Synthesize (mp3) start, len=27, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:19:18,928 [INFO] tts_app: Synthesize (mp3) done, bytes=35568
+2026-01-12 17:19:18,928 [INFO] tts_app: Synthesize (mp3) done, bytes=35568
+2026-01-12 17:19:28,025 [INFO] tts_app: Synthesize (mp3) start, len=37, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:19:28,025 [INFO] tts_app: Synthesize (mp3) start, len=37, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:19:30,050 [INFO] tts_app: Synthesize (mp3) done, bytes=49104
+2026-01-12 17:19:30,050 [INFO] tts_app: Synthesize (mp3) done, bytes=49104
+2026-01-12 17:19:32,393 [INFO] tts_app: Synthesize (mp3) start, len=18, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:19:32,393 [INFO] tts_app: Synthesize (mp3) start, len=18, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:19:34,375 [INFO] tts_app: Synthesize (mp3) done, bytes=24480
+2026-01-12 17:19:34,375 [INFO] tts_app: Synthesize (mp3) done, bytes=24480
+2026-01-12 17:19:34,854 [INFO] tts_app: Synthesize (mp3) start, len=6, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:19:34,854 [INFO] tts_app: Synthesize (mp3) start, len=6, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:19:36,847 [INFO] tts_app: Synthesize (mp3) done, bytes=9504
+2026-01-12 17:19:36,847 [INFO] tts_app: Synthesize (mp3) done, bytes=9504
+2026-01-12 17:19:40,334 [INFO] tts_app: Synthesize (mp3) start, len=18, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:19:40,334 [INFO] tts_app: Synthesize (mp3) start, len=18, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:19:42,373 [INFO] tts_app: Synthesize (mp3) done, bytes=23760
+2026-01-12 17:19:42,373 [INFO] tts_app: Synthesize (mp3) done, bytes=23760
+2026-01-12 17:23:17,353 [INFO] tts_app: Synthesize (mp3) start, len=56, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:23:17,353 [INFO] tts_app: Synthesize (mp3) start, len=56, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 17:23:19,168 [INFO] tts_app: Synthesize (mp3) done, bytes=57888
+2026-01-12 17:23:19,168 [INFO] tts_app: Synthesize (mp3) done, bytes=57888
+2026-01-12 18:38:16,974 [INFO] tts_app: Synthesize (mp3) start, len=56, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 18:38:16,974 [INFO] tts_app: Synthesize (mp3) start, len=56, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 18:38:18,616 [INFO] tts_app: Synthesize (mp3) done, bytes=57888
+2026-01-12 18:38:18,616 [INFO] tts_app: Synthesize (mp3) done, bytes=57888
+2026-01-12 18:47:45,306 [INFO] tts_app: Synthesize (mp3) start, len=15, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 18:47:45,306 [INFO] tts_app: Synthesize (mp3) start, len=15, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 18:47:47,261 [INFO] tts_app: Synthesize (mp3) done, bytes=21888
+2026-01-12 18:47:47,261 [INFO] tts_app: Synthesize (mp3) done, bytes=21888
+2026-01-12 18:50:42,835 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 18:50:42,835 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 18:50:42,908 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 18:50:42,908 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 18:50:44,549 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 18:50:44,549 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 18:50:44,608 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 18:50:44,608 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:06:55,122 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:06:55,122 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:06:57,500 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:06:57,500 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:07:11,409 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:07:11,409 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:07:13,181 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:07:13,181 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:07:39,801 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:07:39,801 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:07:41,481 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:07:41,481 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:07:51,674 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:07:51,674 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:07:53,422 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:07:53,422 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:14:27,906 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:14:27,906 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:14:30,350 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:14:30,350 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:14:41,311 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:14:41,311 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:14:43,230 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:14:43,230 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:14:54,092 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:14:54,092 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:14:54,105 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:14:54,105 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:14:55,818 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:14:55,818 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:14:56,127 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:14:56,127 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:15:05,670 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:15:05,670 [INFO] tts_app: Synthesize (mp3) start, len=17, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:15:07,249 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:15:07,249 [INFO] tts_app: Synthesize (mp3) done, bytes=24912
+2026-01-12 19:15:08,545 [INFO] tts_app: Synthesize (mp3) start, len=2, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:15:08,545 [INFO] tts_app: Synthesize (mp3) start, len=2, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:15:10,167 [INFO] tts_app: Synthesize (mp3) done, bytes=7488
+2026-01-12 19:15:10,167 [INFO] tts_app: Synthesize (mp3) done, bytes=7488
+2026-01-12 19:15:10,664 [INFO] tts_app: Synthesize (mp3) start, len=8, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:15:10,664 [INFO] tts_app: Synthesize (mp3) start, len=8, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:15:12,406 [INFO] tts_app: Synthesize (mp3) done, bytes=15984
+2026-01-12 19:15:12,406 [INFO] tts_app: Synthesize (mp3) done, bytes=15984
+2026-01-12 19:15:25,503 [INFO] tts_app: Synthesize (mp3) start, len=18, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:15:25,503 [INFO] tts_app: Synthesize (mp3) start, len=18, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:15:27,172 [INFO] tts_app: Synthesize (mp3) done, bytes=24480
+2026-01-12 19:15:27,172 [INFO] tts_app: Synthesize (mp3) done, bytes=24480
+2026-01-12 19:15:41,035 [INFO] tts_app: Synthesize (mp3) start, len=46, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:15:41,035 [INFO] tts_app: Synthesize (mp3) start, len=46, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:15:43,152 [INFO] tts_app: Synthesize (mp3) done, bytes=59328
+2026-01-12 19:15:43,152 [INFO] tts_app: Synthesize (mp3) done, bytes=59328
+2026-01-12 19:16:11,752 [INFO] tts_app: Synthesize (mp3) start, len=77, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:16:11,752 [INFO] tts_app: Synthesize (mp3) start, len=77, voice=zh-CN-XiaoxiaoNeural
+2026-01-12 19:16:13,990 [INFO] tts_app: Synthesize (mp3) done, bytes=87984
+2026-01-12 19:16:13,990 [INFO] tts_app: Synthesize (mp3) done, bytes=87984

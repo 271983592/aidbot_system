@@ -1,0 +1,1 @@
+curl -H "Content-Type: application/json" -X POST -d '{"Message": "我要测试", "UserName":"test", "SessionID":"" }' "http://localhost:/asr/chatbot/message"

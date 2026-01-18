@@ -1,0 +1,4 @@
+#!/bin/bash
+source /home/songxm/anaconda3/bin/activate py39
+nohup python app.py 2>&1 > log.aidbot &
+source /home/songxm/anaconda3/bin/deactivate

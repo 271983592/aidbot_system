@@ -1,0 +1,13 @@
+curl localhost:5678/asr/start
+cd listener/asr_deploy/
+nohup python server.py --model_config conf/decode_engine_V3.yaml --host 0.0.0.0 --port 9876 --vad_aggressiveness 6 2>&1 > asr.log &
+cd -
+
+conda activate py39
+python manage.py runserver 0.0.0.0:5678
+
+
+curl -F "wav_file=@/home/songxm/devel/cetc/python/asr/asr_python_deploy/grpc_client/BAC009S0764W0136.wav" http://127.0.0.1:5678/asr/wav
+{"code": 20000, "status": "success", "text": "土地市场不见了对一二线市场的看重"}$
+
+ curl -F "wav_file=@/home/songxm/devel/cetc/python/asr/wavs/bada4134170041c7bb107ab122579898.wav" http://127.0.0.1:5678/asr/wav

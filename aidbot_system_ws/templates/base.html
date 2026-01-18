@@ -1,0 +1,429 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{% block title %}App{% endblock %}</title>
+
+  {% block head %}{% endblock %}
+
+  <style>
+    :root{
+      --bg0:#070b14;
+      --bg1:#0b1220;
+
+      --panel: rgba(255,255,255,.055);
+      --panel2: rgba(255,255,255,.08);
+      --border: rgba(255,255,255,.12);
+
+      --text: rgba(255,255,255,.92);
+      --muted: rgba(255,255,255,.62);
+
+      --shadow: 0 16px 40px rgba(0,0,0,.45);
+      --radius: 18px;
+
+      --blue: #3b82f6;
+      --cyan: #22d3ee;
+      --green:#22c55e;
+      --purple:#a78bfa;
+    }
+
+    *{ box-sizing:border-box; }
+    html,body{ height:100%; margin:0; padding:0; }
+
+    body{
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial;
+      color: var(--text);
+      background:
+        radial-gradient(1100px 550px at 18% -10%, rgba(59,130,246,.35), transparent 58%),
+        radial-gradient(900px 520px at 95% 10%, rgba(34,211,238,.22), transparent 60%),
+        radial-gradient(900px 520px at 80% 95%, rgba(34,197,94,.16), transparent 55%),
+        linear-gradient(180deg, var(--bg0), var(--bg1));
+      overflow-x:hidden;
+    }
+
+    .app{
+      max-width: 1240px;
+      margin: 18px auto;
+      padding: 0 16px 18px;
+    }
+
+    .topbar{
+      position: relative;
+      display:flex;
+      align-items:flex-start;
+      justify-content:space-between;
+      gap: 16px;
+      margin-bottom: 14px;
+      padding: 14px 16px;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      background: linear-gradient(180deg, rgba(255,255,255,.07), rgba(255,255,255,.04));
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+      overflow:hidden;
+    }
+    .topbar:before{
+      content:"";
+      position:absolute;
+      inset:-2px;
+      background:
+        radial-gradient(400px 160px at 15% 0%, rgba(34,211,238,.20), transparent 70%),
+        radial-gradient(500px 180px at 95% 20%, rgba(167,139,250,.16), transparent 70%);
+      pointer-events:none;
+      filter: blur(2px);
+      opacity:.9;
+    }
+    .topbar > *{ position:relative; z-index:1; }
+
+    .topbar h1{
+      margin:0;
+      font-size: 15px;
+      font-weight: 780;
+      letter-spacing: .2px;
+    }
+
+    .header-pills{
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      align-items:center;
+      justify-content:flex-end;
+    }
+    .pill{
+      display:flex;
+      align-items:baseline;
+      gap:10px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      border: 1px solid var(--border);
+      background: rgba(255,255,255,.06);
+    }
+    .pill-label{ font-size:12px; color: var(--muted); }
+    .pill-value{ font-size:13px; font-weight:760; color: var(--text); }
+
+    .layout{
+      display:grid;
+      grid-template-columns: 1.45fr 1fr;
+      gap: 14px;
+      align-items: stretch;
+    }
+    @media (max-width: 980px){
+      .layout{ grid-template-columns: 1fr; }
+    }
+
+    .card{
+      position:relative;
+      border: 1px solid var(--border);
+	border-radius: var(--radius);
+      background: linear-gradient(180deg, rgba(255,255,255,.065), rgba(255,255,255,.04));
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(10px);
+      overflow: hidden;
+      min-height: 120px;
+    }
+    .card:before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:
+        radial-gradient(900px 240px at 30% 0%, rgba(59,130,246,.12), transparent 60%),
+        radial-gradient(800px 220px at 90% 0%, rgba(34,211,238,.10), transparent 60%);
+      pointer-events:none;
+      opacity:.9;
+    }
+    .card > *{ position:relative; z-index:1; }
+
+    .card-hd{
+      padding: 12px 14px;
+      border-bottom: 1px solid rgba(255,255,255,.10);
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 10px;
+    }
+    .card-hd .title{
+      font-weight: 780;
+      font-size: 12.5px;
+      color: rgba(255,255,255,.86);
+      letter-spacing: .3px;
+      text-transform: uppercase;
+    }
+
+    .chat-card{
+      display:flex;
+      flex-direction:column;
+      height: calc(100vh - 150px);
+      min-height: 560px;
+    }
+    .messages{
+      flex:1;
+      overflow:auto;
+      padding: 14px;
+    }
+
+    .message{ margin-bottom: 12px; }
+    .meta{ color: rgba(255,255,255,.52); font-size: 12px; margin-bottom: 6px; }
+    .bubble{
+      padding: 10px 12px;
+      border-radius: 14px;
+      display: inline-block;
+      max-width: 88%;
+      word-break: break-word;
+      border: 1px solid rgba(255,255,255,.12);
+      background: rgba(255,255,255,.055);
+      line-height: 1.55;
+      white-space: pre-wrap;
+      box-shadow: 0 10px 24px rgba(0,0,0,.25);
+    }
+    .user .bubble{
+      background: rgba(59,130,246,.14);
+      border-color: rgba(59,130,246,.28);
+    }
+    .ai .bubble{
+      background: rgba(34,197,94,.12);
+      border-color: rgba(34,197,94,.25);
+    }
+    .system .bubble{
+      background: rgba(250,173,20,.10);
+      border-color: rgba(250,173,20,.22);
+    }
+
+    .badge{
+      display:inline-block;
+      padding: 2px 8px;
+      font-size: 12px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.14);
+      background: rgba(255,255,255,.06);
+      color: rgba(255,255,255,.84);
+      margin-right: 8px;
+    }
+    .badge.user{ border-color: rgba(59,130,246,.35); }
+    .badge.ai{ border-color: rgba(34,197,94,.35); }
+    .badge.system{ border-color: rgba(250,173,20,.35); }
+
+    .input-area{
+      border-top: 1px solid rgba(255,255,255,.10);
+      padding: 12px;
+      display:flex;
+      gap: 10px;
+      background: rgba(0,0,0,.12);
+    }
+    .input-area input{
+      flex:1;
+      padding: 10px 12px;
+      border: 1px solid rgba(255,255,255,.14);
+      border-radius: 12px;
+      outline: none;
+      color: var(--text);
+      background: rgba(255,255,255,.06);
+    }
+    .input-area button{
+      padding: 10px 14px;
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,.14);
+      background: linear-gradient(180deg, rgba(255,255,255,.12), rgba(255,255,255,.06));
+      color: var(--text);
+      cursor:pointer;
+    }
+
+    /* ========== 核心布局：左右面板绝对等高，右侧整体拉伸填充 ========== */
+    .right{
+      display:flex;
+      flex-direction: column;
+      gap: 14px;
+      height: calc(100vh - 150px);
+      min-height: 560px;
+    }
+    .right .card:first-child { flex: 0 0 auto; }
+    .right .card:last-child { flex: 1; display:flex; flex-direction:column; }
+
+    .video-shell{
+      padding: 14px;
+      display:flex;
+      flex-direction:column;
+      gap: 10px;
+    }
+
+    .video-frame{
+      width: 100%;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,.14);
+      background: rgba(0,0,0,.35);
+      overflow:hidden;
+      position:relative;
+      aspect-ratio: 16 / 9;
+    }
+    .video-frame:before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:
+        radial-gradient(800px 240px at 20% 0%, rgba(34,211,238,.12), transparent 60%),
+        radial-gradient(900px 260px at 90% 0%, rgba(59,130,246,.14), transparent 60%);
+      pointer-events:none;
+      opacity:.85;
+      mix-blend-mode: screen;
+    }
+    /* 兼容 img/video 两种视频流标签，完美等比展示无裁切 */
+    video.video,img.video{
+      position:absolute;
+      inset:0;
+      width:100%;
+      height:100%;
+      object-fit: contain !important;
+      background: rgba(0,0,0,.55);
+      border: none;
+    }
+
+    .cam-hint{
+      color: rgba(255,255,255,.60);
+      font-size: 12px;
+      display:flex;
+      justify-content:space-between;
+      gap:10px;
+      flex-wrap:wrap;
+    }
+    .cam-hint code{
+      font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+      font-size: 12px;
+      color: rgba(255,255,255,.75);
+    }
+
+    /* ========== 核心：波形外层容器 100% 填充父容器，无任何留白 ========== */
+    .wave-wrap{
+      display:flex;
+      flex-direction:column;
+      gap: 16px;
+      padding: 14px;
+      flex: 1;
+      height: 100%;
+    }
+
+    .hud{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap: 10px;
+      padding: 10px 12px;
+      border-radius: 14px;
+      border: 1px solid rgba(255,255,255,.14);
+      background: linear-gradient(180deg, rgba(255,255,255,.08), rgba(255,255,255,.04));
+      flex: 0 0 auto;
+    }
+    .hud-left{
+      display:flex;
+      align-items:center;
+      gap:10px;
+      min-width: 0;
+    }
+    .dot{
+      width:10px; height:10px; border-radius:50%;
+      background: rgba(255,255,255,.25);
+      box-shadow: 0 0 0 0 rgba(34,211,238,.0);
+      transition: .2s ease;
+      flex: 0 0 auto;
+    }
+    .dot.playing{
+      background: rgba(34,211,238,.95);
+      box-shadow: 0 0 18px rgba(34,211,238,.55), 0 0 36px rgba(59,130,246,.25);
+      animation: pulse 1.1s ease-in-out infinite;
+    }
+    @keyframes pulse{
+      0%,100%{ transform: scale(1); }
+      50%{ transform: scale(1.15); }
+    }
+
+    .tts-status{
+      font-size: 12px;
+      color: rgba(255,255,255,.70);
+      white-space: nowrap;
+      overflow:hidden;
+      text-overflow: ellipsis;
+      max-width: 520px;
+    }
+
+    /* ========== 核心自适应布局：双波形 无固定高度，完全拉伸填充+可视完整 ========== */
+    .dual-wave-container {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      flex: 1;
+      height: 100%;
+    }
+    .wave-item {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+      flex: 1;
+      height: 100%;
+    }
+    .wave-title {
+      font-size: 13px;
+      color: #b0b8c4;
+      margin: 0 0 0 4px;
+      font-weight: 600;
+      letter-spacing: .2px;
+      flex: 0 0 auto;
+    }
+    /* 波形面板 可视区域最大化，内边距清零，保证波形完整展示 */
+    .wave-panel{
+      position:relative;
+      border-radius: 16px;
+      border: 1px solid rgba(255,255,255,.14);
+      overflow:hidden;
+      background: rgba(0,0,0,.25);
+      flex: 1;
+      width: 100%;
+      height: 100%;
+      padding:0;
+      margin:0;
+    }
+
+    .wave-panel:before{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:
+        repeating-linear-gradient(
+          180deg,
+          rgba(255,255,255,.05) 0px,
+          rgba(255,255,255,.05) 1px,
+          rgba(255,255,255,.00) 3px,
+          rgba(255,255,255,.00) 7px
+        );
+      opacity:.35;
+      pointer-events:none;
+    }
+    .wave-panel:after{
+      content:"";
+      position:absolute;
+      inset:-40% -20% auto -20%;
+      height: 120%;
+      background: radial-gradient(closest-side, rgba(34,211,238,.18), transparent 65%);
+      pointer-events:none;
+      filter: blur(2px);
+      opacity:.75;
+    }
+    /* 关键修复：canvas 铺满容器，无任何边距，保证绘制区域完整 */
+    canvas.wave{
+      width: 100% !important;
+      height: 100% !important;
+      display:block !important;
+      position: absolute;
+      top:0;
+      left:0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="app">
+    {% block content %}{% endblock %}
+  </div>
+
+  {% block scripts %}{% endblock %}
+</body>
+</html>

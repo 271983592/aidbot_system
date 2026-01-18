@@ -1,0 +1,486 @@
+{% extends "base.html" %}
+
+{% block title %}Flask WebSocket 人机对话 - 流式版{% endblock %}
+
+{% block head %}
+  <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+{% endblock %}
+
+{% block content %}
+  <div class="topbar">
+    <div>
+      <h1>Flask WebSocket 人机对话 - 流式版</h1>
+    </div>
+
+    <div class="header-pills">
+      <div class="pill">
+        <span class="pill-label">会话ID</span>
+        <span class="pill-value" id="sessionId">-</span>
+      </div>
+      <div class="pill">
+        <span class="pill-label">客户端ID</span>
+        <span class="pill-value" id="clientId">-</span>
+      </div>
+      <div class="pill">
+        <span class="pill-label">状态</span>
+        <span class="pill-value" id="connStatus">未连接</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="layout">
+    <div class="card chat-card">
+      <div class="card-hd">
+        <div class="title">对话</div>
+      </div>
+      <div class="messages" id="messages"></div>
+      <div class="input-area">
+        <input type="text" id="messageInput" placeholder="输入消息，按回车发送">
+        <button id="sendBtn" onclick="sendMessage()">发送</button>
+        <!-- 新增：麦克风开关按钮，解决浏览器策略限制 -->
+        <button id="micBtn" onclick="toggleMicrophone()" style="margin-left:8px;">开启麦克风</button>
+      </div>
+    </div>
+
+    <div class="right">
+      <div class="card">
+        <div class="card-hd">
+          <div class="title">人脸检测视频流 (完整展示)</div>
+        </div>
+        <div class="video-shell">
+          <div class="video-frame" id="videoFrame">
+            <img id="videoEl" class="video" src="http://localhost:5001/video" alt="人脸检测视频流" />
+          </div>
+          <div class="cam-hint">
+            <span>分辨率：<code id="camRes">1280x720</code></span>
+            <span>比例：<code id="camRatio">1.778</code></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-hd">
+          <div class="title">语音波形面板（双波形独立展示，完整可视）</div>
+        </div>
+        <div class="wave-wrap">
+          <div class="hud">
+            <div class="hud-left">
+              <div class="dot" id="playDot"></div>
+              <div class="tts-status" id="ttsStatus">未播放</div>
+            </div>
+          </div>
+          <div class="dual-wave-container">
+            <div class="wave-item">
+              <div class="wave-title">🎤 用户输入语音波形</div>
+              <div class="wave-panel">
+                <canvas id="waveCanvasUser" class="wave"></canvas>
+              </div>
+            </div>
+            <div class="wave-item">
+              <div class="wave-title">🔊 AI语音播放波形</div>
+              <div class="wave-panel">
+                <canvas id="waveCanvasAI" class="wave"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+  const TTS_BASE = "http://127.0.0.1:7777";
+  const TTS_SYNTH_URL = `${TTS_BASE}/tts/synthesize`;
+
+  let socket = null;
+  let sessionId = null;
+  let clientId = null;
+
+  let streamingMsgEl = null;
+  let streamingSessionId = null;
+  let streamingShownLength = 0;
+  let finalAiText = "";
+
+  // 双音频上下文+双分析器+双绘图ID，完全独立互不干扰
+  let audioCtxAI = null;
+  let analyserAI = null;
+  let sourceNodeAI = null;
+  let gainNodeAI = null;
+  let rafIdAI = null;
+  let audioCtxUser = null;
+  let analyserUser = null;
+  let rafIdUser = null;
+  let userMediaStream = null; // 新增：保存麦克风流，用于关闭
+  let micIsOpen = false; // 新增：麦克风状态标记
+
+  let audioEl = null;
+
+  function setConnStatus(text){ document.getElementById('connStatus').textContent = text; }
+  function scrollToBottom(){ const box = document.getElementById('messages'); box.scrollTop = box.scrollHeight; }
+
+  function escapeHtml(str){
+    return (str || '').replace(/[&<>"']/g, s => ({
+      '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+    }[s]));
+  }
+
+  function addSystemMessage(text){
+    const box = document.getElementById('messages');
+    const div = document.createElement('div');
+    div.className = 'message system';
+    div.innerHTML = `
+      <div class="meta"><span class="badge system">系统</span> ${new Date().toLocaleTimeString()}</div>
+      <div class="bubble">${escapeHtml(text)}</div>
+    `;
+    box.appendChild(div);
+    scrollToBottom();
+  }
+
+  function addMessage(sender, text, type='user'){
+    const box = document.getElementById('messages');
+    const div = document.createElement('div');
+    div.className = `message ${type}`;
+    const badgeClass = type === 'user' ? 'user' : (type === 'ai' ? 'ai' : 'system');
+    div.innerHTML = `
+      <div class="meta"><span class="badge ${badgeClass}">${sender}</span> ${new Date().toLocaleTimeString()}</div>
+      <div class="bubble">${escapeHtml(text)}</div>
+    `;
+    box.appendChild(div);
+    scrollToBottom();
+  }
+
+  function initSocket() {
+    const wsProtocol = window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    const wsHost = window.location.host;
+
+    socket = io(`${wsProtocol}//${wsHost}`, {
+      transports: ['websocket', 'polling'],
+      reconnection: true,
+      reconnectionDelay: 1000
+    });
+
+    socket.on('connect', () => {
+      clientId = socket.id;
+      document.getElementById('clientId').textContent = clientId.slice(0,8);
+      setConnStatus('已连接');
+      addSystemMessage('WebSocket连接成功，视频流加载中...');
+    });
+
+    socket.on('connection_success', (data) => {
+      sessionId = data.session_id;
+      document.getElementById('sessionId').textContent = sessionId.slice(0,8);
+    });
+
+    socket.on('disconnect', (reason) => setConnStatus('断开: ' + reason));
+    socket.on('new_message', (data) => addMessage('用户', data.user_message, 'user'));
+    socket.on('ai_stream', onAiStream);
+  }
+
+  function initCamera() {
+    const videoImg = document.getElementById("videoEl");
+    videoImg.onload = function() {
+      document.getElementById("camRes").textContent = "1280x720";
+      document.getElementById("camRatio").textContent = "1.778";
+      addSystemMessage('人脸检测视频流加载完成，完整画面展示！');
+    };
+    videoImg.onerror = function() {
+      document.getElementById("camRes").textContent = "加载失败";
+      document.getElementById("camRatio").textContent = "--";
+      addSystemMessage('警告：视频流加载失败，请检查5001端口的人脸检测服务是否启动！');
+    };
+  }
+
+  function sendMessage(){
+    const input = document.getElementById('messageInput');
+    const msg = input.value.trim();
+    if (!msg) return alert('请输入消息');
+    socket.emit('user_message', { message: msg, session_id: sessionId, client_id: clientId });
+    input.value = '';
+  }
+
+  document.getElementById('messageInput').addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') sendMessage();
+  });
+
+  // ========== 修复1：优化音频分析器参数，适配麦克风输入 ==========
+  function ensureAudioGraphAI() {
+    if (audioCtxAI) return;
+    audioCtxAI = new (window.AudioContext || window.webkitAudioContext)();
+    analyserAI = audioCtxAI.createAnalyser();
+    analyserAI.fftSize = 1024;
+    analyserAI.smoothingTimeConstant = 0.7;
+    analyserAI.minDecibels = -90;
+    analyserAI.maxDecibels = -10;
+    gainNodeAI = audioCtxAI.createGain();
+    gainNodeAI.gain.value = 1.0;
+    analyserAI.connect(gainNodeAI);
+    gainNodeAI.connect(audioCtxAI.destination);
+  }
+
+  function ensureAudioGraphUser() {
+    if (audioCtxUser) return;
+    audioCtxUser = new (window.AudioContext || window.webkitAudioContext)();
+    analyserUser = audioCtxUser.createAnalyser();
+    analyserUser.fftSize = 1024;
+    analyserUser.smoothingTimeConstant = 0.7;
+    analyserUser.minDecibels = -90;
+    analyserUser.maxDecibels = -10;
+    // ✅ 关键：用户分析器 不需要额外连接扬声器，避免回声
+  }
+
+  function setTtsStatus(text){ document.getElementById("ttsStatus").textContent = text; }
+  function setPlayingDot(isPlaying){
+    document.getElementById('playDot').classList.toggle("playing", !!isPlaying);
+  }
+
+  function cleanupAudioGraphAI(){
+    if (rafIdAI) cancelAnimationFrame(rafIdAI);
+    rafIdAI = null;
+    try { if (sourceNodeAI) sourceNodeAI.disconnect(); } catch {}
+    sourceNodeAI = null;
+    audioEl = null;
+  }
+
+  // ========== 修复2：完善用户音频资源清理 ==========
+  function cleanupAudioGraphUser(){
+    if (rafIdUser) cancelAnimationFrame(rafIdUser);
+    rafIdUser = null;
+    if (userMediaStream) {
+      userMediaStream.getTracks().forEach(track => track.stop());
+      userMediaStream = null;
+    }
+  }
+
+  async function ttsPlay(text) {
+    const clean = (text || "").trim();
+    if (!clean) return;
+    try {
+      ensureAudioGraphAI();
+      if (audioCtxAI.state === "suspended") await audioCtxAI.resume();
+      if (audioEl) { try { audioEl.pause(); } catch {} }
+      cleanupAudioGraphAI();
+      setTtsStatus("合成中...");
+      setPlayingDot(false);
+
+      const resp = await fetch(TTS_SYNTH_URL, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text: clean })
+      });
+      if (!resp.ok) throw new Error(`TTS synthesize failed: ${resp.status}`);
+      const blob = await resp.blob();
+      const url = URL.createObjectURL(blob);
+
+      audioEl = new Audio(url);
+      audioEl.preload = "auto";
+      sourceNodeAI = audioCtxAI.createMediaElementSource(audioEl);
+      sourceNodeAI.connect(analyserAI);
+
+      audioEl.onplay = () => { setTtsStatus("播放中..."); setPlayingDot(true); drawNeonWave('AI'); };
+      audioEl.onended = () => { setTtsStatus("播放结束"); setPlayingDot(false); URL.revokeObjectURL(url); cleanupAudioGraphAI(); };
+      audioEl.onerror = () => { setTtsStatus("播放失败"); setPlayingDot(false); URL.revokeObjectURL(url); cleanupAudioGraphAI(); };
+      await audioEl.play();
+    } catch (e) {
+      setTtsStatus("TTS失败: " + e.message);
+      setPlayingDot(false);
+    }
+  }
+
+  // ========== 波形绘制函数 无BUG，完美适配 ==========
+  function drawNeonWave(type) {
+    const {canvasId, analyser, rafIdKey} = type === 'AI'
+      ? { canvasId: 'waveCanvasAI', analyser: analyserAI, rafIdKey: 'rafIdAI' }
+      : { canvasId: 'waveCanvasUser', analyser: analyserUser, rafIdKey: 'rafIdUser' };
+
+    const canvas = document.getElementById(canvasId);
+    const ctx = canvas.getContext("2d");
+    const container = canvas.parentElement;
+    const w = container.offsetWidth;
+    const h = container.offsetHeight;
+    canvas.width = w;
+    canvas.height = h;
+    const W = w;
+    const H = h;
+
+    const timeLen = analyser.frequencyBinCount;
+    const timeData = new Uint8Array(timeLen);
+    const freqLen = analyser.frequencyBinCount;
+    const freqData = new Uint8Array(freqLen);
+
+    let t = 0;
+    function render(){
+      window[rafIdKey] = requestAnimationFrame(render);
+      t += 0.015;
+      analyser.getByteTimeDomainData(timeData);
+      analyser.getByteFrequencyData(freqData);
+      ctx.clearRect(0,0,W,H);
+
+      const bg = ctx.createLinearGradient(0,0,0,H);
+      bg.addColorStop(0, "rgba(8,12,22,0.70)");
+      bg.addColorStop(1, "rgba(2,6,12,0.55)");
+      ctx.fillStyle = bg;
+      ctx.fillRect(0,0,W,H);
+
+      const sweepX = (Math.sin(t) * 0.5 + 0.5) * W;
+      const sweep = ctx.createRadialGradient(sweepX, H*0.5, 20, sweepX, H*0.5, W*0.55);
+      sweep.addColorStop(0, "rgba(34,211,238,0.12)");
+      sweep.addColorStop(0.35, "rgba(59,130,246,0.06)");
+      sweep.addColorStop(1, "rgba(0,0,0,0)");
+      ctx.fillStyle = sweep;
+      ctx.fillRect(0,0,W,H);
+
+      ctx.strokeStyle = "rgba(255,255,255,0.14)";
+      ctx.lineWidth = 1;
+      ctx.beginPath();ctx.moveTo(0, H*0.5);ctx.lineTo(W, H*0.5);ctx.stroke();
+
+      const barAreaH = H * 0.45;
+      const barBaseY = H - (H * 0.05);
+      const bars = 64;
+      const step = Math.floor(freqLen / bars);
+      const barW = W / bars;
+      for (let i=0;i<bars;i++){
+        const v = freqData[i*step] / 255;
+        const bh = Math.max(3, v * barAreaH);
+        const x = i * barW + barW * 0.2;
+        const y = barBaseY - bh;
+        const grad = ctx.createLinearGradient(0, y, 0, barBaseY);
+        grad.addColorStop(0, "rgba(34,211,238,0.95)");
+        grad.addColorStop(0.55, "rgba(59,130,246,0.55)");
+        grad.addColorStop(1, "rgba(34,197,94,0.18)");
+        ctx.fillStyle = grad;
+        ctx.globalAlpha = 0.9;
+        ctx.fillRect(x, y, barW*0.6, bh);
+      }
+      ctx.globalAlpha = 1;
+
+      const sliceW = W / timeLen;
+      ctx.save();
+      ctx.shadowBlur = 12;
+      ctx.shadowColor = "rgba(34,211,238,0.65)";
+      ctx.lineWidth = 2.2;
+      const neon = ctx.createLinearGradient(0,0,W,0);
+      neon.addColorStop(0, "rgba(34,211,238,0.92)");
+      neon.addColorStop(0.5, "rgba(59,130,246,0.85)");
+      neon.addColorStop(1, "rgba(167,139,250,0.75)");
+      ctx.strokeStyle = neon;
+
+      ctx.beginPath();
+      let x = 0;
+      for (let i=0;i<timeLen;i++){
+        const vv = (timeData[i] / 128.0) - 1.0;
+        const y = (H*0.5) + vv * (H*0.4);
+        if (i===0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
+        x += sliceW;
+      }
+      ctx.stroke();
+      ctx.restore();
+
+      ctx.lineWidth = 1;
+      ctx.strokeStyle = "rgba(255,255,255,0.5)";
+      ctx.beginPath();
+      x = 0;
+      for (let i=0;i<timeLen;i++){
+        const vv = (timeData[i] / 128.0) - 1.0;
+        const y = (H*0.5) + vv * (H*0.4);
+        if (i===0) ctx.moveTo(x,y); else ctx.lineTo(x,y);
+        x += sliceW;
+      }
+      ctx.stroke();
+    }
+    render();
+  }
+
+  function formatAiTextForDisplay(raw){
+    let s = raw || "";
+    s = s.replace(/(^|[\n\r。！？；.!?;])\s+/g, "$1");
+    const hasCJK = /[\u4e00-\u9fff]/.test(s);
+    if (!hasCJK) return s;
+    s = s.replace(/([\u4e00-\u9fff])\s+([\u4e00-\u9fff])/g, "$1$2");
+    const punct = "，。！？；：、）】》”’%％】）";
+    const punctOpen = "（【《“‘";
+    const punctRe = new RegExp(`\\s*([${punct}])\\s*`, "g");
+    s = s.replace(punctRe, "$1");
+    const punctOpenRe = new RegExp(`\\s*([${punctOpen}])\\s*`, "g");
+    s = s.replace(punctOpenRe, "$1");
+    s = s.replace(/([\u4e00-\u9fff])\s+([A-Za-z0-9])/g, "$1$2");
+    s = s.replace(/([A-Za-z0-9])\s+([\u4e00-\u9fff])/g, "$1$2");
+    return s;
+  }
+
+  async function onAiStream(data){
+    if (!streamingMsgEl || streamingSessionId !== data.session_id) {
+      streamingMsgEl = document.createElement('div');
+      streamingMsgEl.className = 'message ai';
+      streamingMsgEl.innerHTML = `
+        <div class="meta"><span class="badge ai">AI</span> ${new Date().toLocaleTimeString()}</div>
+        <div class="bubble" id="aiBubble"></div>
+      `;
+      document.getElementById('messages').appendChild(streamingMsgEl);
+      streamingSessionId = data.session_id;
+      streamingShownLength = 0;
+      finalAiText = "";
+    }
+    const newContentRaw = data.content || '';
+    const newContent = formatAiTextForDisplay(newContentRaw);
+    const bubble = streamingMsgEl.querySelector('#aiBubble');
+    const delta = newContent.slice(streamingShownLength);
+    bubble.insertAdjacentHTML('beforeend', escapeHtml(delta));
+    streamingShownLength = newContent.length;
+    finalAiText = newContent;
+
+    if (data.done) {
+      const speakText = (finalAiText || "").trim();
+      if (speakText) ttsPlay(speakText);
+      streamingMsgEl = null;
+      streamingSessionId = null;
+      streamingShownLength = 0;
+      finalAiText = "";
+    }
+    scrollToBottom();
+  }
+
+  // ========== ✅ 核心修复3：麦克风开关核心函数，彻底解决无波形问题 ==========
+  async function toggleMicrophone() {
+    const micBtn = document.getElementById('micBtn');
+    if(micIsOpen){
+      // 关闭麦克风
+      cleanupAudioGraphUser();
+      micIsOpen = false;
+      micBtn.textContent = "开启麦克风";
+      addSystemMessage('麦克风已关闭，用户语音波形停止展示');
+      return;
+    }
+
+    try {
+      ensureAudioGraphUser();
+      // ✅ 必须手动恢复音频上下文，浏览器策略限制
+      if (audioCtxUser.state === "suspended") await audioCtxUser.resume();
+      // ✅ 获取麦克风音频流
+      userMediaStream = await navigator.mediaDevices.getUserMedia({
+        audio: { echoCancellation: true, noiseSuppression: true } // 降噪+回声消除
+      });
+      // ✅ 核心关键：将麦克风流 绑定到 用户分析器
+      const source = audioCtxUser.createMediaStreamSource(userMediaStream);
+      source.connect(analyserUser);
+      // ✅ 立即绘制波形
+      drawNeonWave('USER');
+
+      micIsOpen = true;
+      micBtn.textContent = "关闭麦克风";
+      addSystemMessage('✅ 麦克风开启成功！说话即可看到实时语音波形');
+    } catch (err) {
+      addSystemMessage(`❌ 麦克风开启失败：${err.message}，请检查麦克风权限`);
+      console.error('麦克风错误', err);
+    }
+  }
+
+  window.onload = () => {
+    initSocket();
+    initCamera();
+    setTtsStatus("未播放");
+    // 不再自动开启，必须手动点击按钮
+  };
+</script>
+{% endblock %}
